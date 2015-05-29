@@ -1,0 +1,10 @@
+.extension-dialog {
+    .headline {
+        font-size: 10pt;
+    }
+
+    StIcon {
+        icon-size: 32px;
+        @include size(32px);
+    }
+}

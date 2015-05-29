@@ -1,0 +1,47 @@
+/* ===================================================================
+   ! Run dialog
+   ===================================================================*/
+
+.run-dialog {
+
+    .modal-dialog-button,
+    .modal-dialog-button:hover,
+    .modal-dialog-button:focus,
+    .modal-dialog-button:active,
+    .modal-dialog-button:pressed,
+    .modal-dialog-button:focus:hover,
+    .modal-dialog-button:focus:active,
+    .modal-dialog-button:focus:pressed,
+    .modal-dialog-button:insensitive {
+        border-image: none;
+    }
+
+    > * {
+        padding: 12px 12px 6px 12px;
+    }
+
+    > .modal-dialog-button-box {
+        background-color: rgba(0, 0, 0, 0);
+        border-image: none;
+        box-shadow: none;
+        padding: 0;
+        padding-bottom: 0;
+        height: 0;
+    }
+
+    &-error-box {
+        padding: 2px 2px 8px 2px;
+        spacing: 5px;
+
+        StIcon {
+            @include size(16px);
+            color: $warning-text;
+        }
+    }
+
+    &-completion-box { font-size: 10px; }
+
+    &-label { font-size: 0; }
+
+    &-entry {/*!*/}
+}
