@@ -16,7 +16,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91 r"
    sodipodi:docname="button-focused.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -31,17 +31,17 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="14.145833"
-     inkscape:cx="-12.724596"
-     inkscape:cy="11.575848"
+     inkscape:cx="-5.6907225"
+     inkscape:cy="8.7481602"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="851"
+     inkscape:window-height="846"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="25"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -159,13 +159,19 @@
        d="M 5 3 C 3.892 3 3 3.892 3 5 L 3 19 C 3 20.108 3.892 21 5 21 L 19 21 C 20.108 21 21 20.108 21 19 L 21 5 C 21 3.892 20.108 3 19 3 L 5 3 z M 4 4 L 20 4 L 20 20 L 4 20 L 4 4 z "
        id="rect4166"
        transform="translate(0,276)" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="rect4238-3"
+       d="m 4,280 16,0 0,16 -16,0 z"
+       style="display:inline;opacity:0.65;fill:#275479;fill-opacity:1;stroke:none;enable-background:new" />
     <rect
        style="display:inline;fill:#799dbd;fill-opacity:1;stroke:none;enable-background:new"
        id="rect4270-9-3"
-       width="16"
-       height="16"
-       x="4"
-       y="280" />
+       width="14"
+       height="14"
+       x="5"
+       y="281" />
     <rect
        style="opacity:0.2;fill:#00203c;fill-opacity:1;stroke:none"
        id="rect4030"
@@ -175,11 +181,6 @@
        y="296"
        ry="20"
        rx="20" />
-    <path
-       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;enable-background:new;opacity:0.2"
-       d="M 4 4 L 4 20 L 20 20 L 20 4 L 4 4 z M 5 5 L 19 5 L 19 19 L 5 19 L 5 5 z "
-       transform="translate(0,276)"
-       id="rect4312" />
     <rect
        ry="20"
        y="295"
