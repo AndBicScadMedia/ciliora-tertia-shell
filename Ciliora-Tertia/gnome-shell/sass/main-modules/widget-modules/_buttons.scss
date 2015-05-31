@@ -38,7 +38,7 @@
         color: $text-primary-invert;
     }
 
-    &:disabled {
+    &:insensitive {
         border-image: url("button-assets/button-insensitive.svg") 10;
         color: $text-disabled;
     }

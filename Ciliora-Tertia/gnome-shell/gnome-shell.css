@@ -232,9 +232,9 @@ StEntry:insensitive StIcon {
   border-image: url("button-assets/button-focused-pressed.svg") 10;
   color: #fff;
 }
-.button:disabled,
-.modal-dialog-button:disabled,
-.notification-button:disabled {
+.button:insensitive,
+.modal-dialog-button:insensitive,
+.notification-button:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(0, 0, 0, 0.15);
 }
