@@ -26,11 +26,9 @@
 }
 
 .app-folder-icon {
-    padding: 0;
-    spacing-rows: 0;
-    spacing-columns: 0;
-
-    StIcon { @include size(48px); }
+    padding: 5px;
+    spacing-rows: 10px;
+    spacing-columns: 10px;
 }
 
 .app-folder .overview-icon {

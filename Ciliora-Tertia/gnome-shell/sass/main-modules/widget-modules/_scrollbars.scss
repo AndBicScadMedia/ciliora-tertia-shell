@@ -31,9 +31,9 @@ StScrollBar {
     }
 }
 
-/*--- Overview Scrollbar ---*/
+/*--- Search Results Scrollbar ---*/
 
-#overview {
+.search-display {
     StScrollBar {
 
         StButton#vhandle,
@@ -44,5 +44,13 @@ StScrollBar {
                 border-image: url("widget-assets/overview-scroll-handle-hover.svg") 5;
             }
         }
+    }
+}
+
+/*--- App Folder Scrollbar ---*/
+
+.app-folder-popup-bin {
+    StScrollBar {
+        padding-bottom: 17px;
     }
 }

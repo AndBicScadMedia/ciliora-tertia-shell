@@ -52,16 +52,21 @@ StScrollBar StButton#hhandle:active {
   border-image: url("widget-assets/scroll-handle-hover.svg") 4;
 }
 
-/*--- Overview Scrollbar ---*/
-#overview StScrollBar StButton#vhandle,
-#overview StScrollBar StButton#hhandle {
+/*--- Search Results Scrollbar ---*/
+.search-display StScrollBar StButton#vhandle,
+.search-display StScrollBar StButton#hhandle {
   border-image: url("widget-assets/overview-scroll-handle.svg") 5;
 }
-#overview StScrollBar StButton#vhandle:hover, #overview StScrollBar StButton#vhandle:focus, #overview StScrollBar StButton#vhandle:active,
-#overview StScrollBar StButton#hhandle:hover,
-#overview StScrollBar StButton#hhandle:focus,
-#overview StScrollBar StButton#hhandle:active {
+.search-display StScrollBar StButton#vhandle:hover, .search-display StScrollBar StButton#vhandle:focus, .search-display StScrollBar StButton#vhandle:active,
+.search-display StScrollBar StButton#hhandle:hover,
+.search-display StScrollBar StButton#hhandle:focus,
+.search-display StScrollBar StButton#hhandle:active {
   border-image: url("widget-assets/overview-scroll-handle-hover.svg") 5;
+}
+
+/*--- App Folder Scrollbar ---*/
+.app-folder-popup-bin StScrollBar {
+  padding-bottom: 17px;
 }
 
 /* ===================================================================
@@ -744,13 +749,9 @@ StEntry:insensitive StIcon {
 }
 
 .app-folder-icon {
-  padding: 0;
-  spacing-rows: 0;
-  spacing-columns: 0;
-}
-.app-folder-icon StIcon {
-  width: 48px;
-  height: 48px;
+  padding: 5px;
+  spacing-rows: 10px;
+  spacing-columns: 10px;
 }
 
 .app-folder .overview-icon {
