@@ -34,7 +34,7 @@ StScrollBar {
 }
 StScrollView StScrollBar {
   min-width: 12px;
-  min-height: 16px;
+  min-height: 12px;
 }
 StScrollBar StBin#trough {
   background-color: transparent;
