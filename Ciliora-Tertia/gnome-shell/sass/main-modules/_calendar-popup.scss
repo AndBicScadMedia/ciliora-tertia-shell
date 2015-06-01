@@ -4,7 +4,7 @@
 
 #calendarArea { padding: 0;  max-height: 700px;}
 
-.calendar { margin-bottom: .3em; }
+.calendar { margin: 0 1.5em .3em 1.5em; }
 
 .datemenu-calendar-column { spacing: 0; }
 
@@ -134,12 +134,15 @@
     font-size: 8pt;
     font-weight: bold;
     text-align: center;
+    padding: 0.1em;
+    margin: 2px;
     @include size(2.2em, 2.5em);
 }
 
 .calendar-day-heading {
     font-size: 9pt;
     color: $text-primary;
+    margin-top: 1em;
     height: 2em;
 
     &:focus {
@@ -309,6 +312,7 @@
 
     &-section-title {
         padding: .1em 0 0 .2em;
+        font-weight: bold;
         color: $text-secondary;
 
         &:hover, &:focus, &:active {

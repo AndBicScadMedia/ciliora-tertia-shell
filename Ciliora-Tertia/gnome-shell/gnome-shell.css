@@ -577,6 +577,7 @@ StEntry:insensitive StIcon {
   padding: 0;
   spacing: 0;
   transition-duration: 0ms !important;
+  text-align: center;
   border-image: url("overview-assets/search-list-border-bottom.svg") 6;
 }
 .list-search-result:hover, .list-search-result:focus, .list-search-result:active {
@@ -694,6 +695,7 @@ StEntry:insensitive StIcon {
   transition-duration: 0ms;
   padding: 6px;
   color: #fff;
+  text-align: center;
 }
 .app-well-app:hover .overview-icon, .app-well-app:focus .overview-icon, .app-well-app:selected .overview-icon, .app-well-app:active .overview-icon, .app-well-app:checked .overview-icon, .grid-search-result:hover .overview-icon, .grid-search-result:focus .overview-icon, .grid-search-result:selected .overview-icon, .grid-search-result:active .overview-icon, .grid-search-result:checked .overview-icon {
   border-image: url("overview-assets/overview-light-bg.svg") 7;
@@ -756,6 +758,7 @@ StEntry:insensitive StIcon {
 
 .app-folder .overview-icon {
   border-image: url("overview-assets/overview-dark-bg.svg") 7;
+  text-align: center;
 }
 
 /* ===================================================================
@@ -838,7 +841,7 @@ StEntry:insensitive StIcon {
   border-image: none;
 }
 .run-dialog > * {
-  padding: 12px 12px 6px 12px;
+  padding: 12px;
 }
 .run-dialog > .modal-dialog-button-box {
   background-color: transparent;
@@ -1617,7 +1620,7 @@ StEntry:insensitive StIcon {
 }
 
 .calendar {
-  margin-bottom: .3em;
+  margin: 0 1.5em .3em 1.5em;
 }
 
 .datemenu-calendar-column {
@@ -1728,6 +1731,8 @@ StEntry:insensitive StIcon {
   font-size: 8pt;
   font-weight: bold;
   text-align: center;
+  padding: 0.1em;
+  margin: 2px;
   width: 2.2em;
   height: 2.5em;
 }
@@ -1735,6 +1740,7 @@ StEntry:insensitive StIcon {
 .calendar-day-heading {
   font-size: 9pt;
   color: rgba(0, 0, 0, 0.65);
+  margin-top: 1em;
   height: 2em;
 }
 .calendar-day-heading:focus {
@@ -1868,6 +1874,7 @@ StEntry:insensitive StIcon {
 }
 .message-list-section-title {
   padding: .1em 0 0 .2em;
+  font-weight: bold;
   color: rgba(0, 0, 0, 0.4);
 }
 .message-list-section-title:hover, .message-list-section-title:focus, .message-list-section-title:active {
