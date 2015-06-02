@@ -3,7 +3,6 @@
    ===================================================================*/
 
 .run-dialog {
-
     .modal-dialog-button,
     .modal-dialog-button:hover,
     .modal-dialog-button:focus,
@@ -25,13 +24,14 @@
         border-image: none;
         box-shadow: none;
         padding: 0;
-        padding-bottom: 0;
+        padding-top: 0;
         height: 0;
     }
 
     &-error-box {
-        padding: 2px 2px 8px 2px;
+        padding: 8px 2px 2px 2px;
         spacing: 5px;
+        color: $warning-text;
 
         StIcon {
             @include size(16px);
@@ -41,7 +41,12 @@
 
     &-completion-box { font-size: 10px; }
 
-    &-label { font-size: 0; }
+    &-label {
+        font-size: 0;
+        padding-bottom: 0 !important;
+    }
 
-    &-entry {/*!*/}
+    &-entry {
+        margin-bottom: 0;
+    }
 }
