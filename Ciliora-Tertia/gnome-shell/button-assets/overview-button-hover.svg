@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="90.000000"
@@ -16,7 +17,7 @@
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="overview-button.svg"
+   sodipodi:docname="overview-button-hover.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -30,8 +31,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="14.979167"
-     inkscape:cx="-13.195694"
-     inkscape:cy="8.9890521"
+     inkscape:cx="-2.8479888"
+     inkscape:cy="9.1225709"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -85,6 +86,16 @@
          offset="1"
          id="stop4131" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4127"
+       id="linearGradient4187"
+       gradientUnits="userSpaceOnUse"
+       x1="-298"
+       y1="-12"
+       x2="-278"
+       y2="-12"
+       gradientTransform="translate(0,24)" />
   </defs>
   <metadata
      id="metadata4">
@@ -102,7 +113,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -143,18 +154,46 @@
      id="layer1"
      transform="translate(0,-276)">
     <path
-       sodipodi:nodetypes="cccccccccc"
+       style="opacity:0.35;fill:#000000;fill-opacity:1;stroke:none"
+       d="m 23,277 0,22 -22,0 0,-22 z m -1,1 -20,0 0,20 20,0 z"
+       id="path4177"
        inkscape:connector-curvature="0"
-       id="rect5319-7"
-       d="m 1,277 0,22 22,0 0,-22 z m 1,1 20,0 0,20 -20,0 z"
-       style="opacity:0.35;fill:#000000;fill-opacity:1;stroke:none" />
+       sodipodi:nodetypes="cccccccccc" />
     <rect
-       y="-22"
+       transform="matrix(0,-1,1,0,0,0)"
+       style="opacity:0.12000002;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4179"
+       width="20"
+       height="20"
+       x="-298"
+       y="2" />
+    <rect
+       ry="2"
+       y="299"
+       x="-23"
+       height="1"
+       width="22"
+       id="rect4181"
+       style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+       rx="2"
+       transform="scale(-1,1)" />
+    <rect
+       rx="2"
+       style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+       id="rect4183"
+       width="22"
+       height="1"
+       x="-23"
+       y="298"
+       ry="2"
+       transform="scale(-1,1)" />
+    <rect
+       y="2"
        x="-298"
        height="20"
        width="20"
-       id="rect4214"
-       style="opacity:0.12;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="matrix(0,-1,-1,0,0,0)" />
+       id="rect4185"
+       style="opacity:0.05;fill:url(#linearGradient4187);fill-opacity:1;stroke:none"
+       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>

@@ -1988,12 +1988,8 @@ StEntry:insensitive StIcon {
   border: 0 solid transparent !important;
   border-image: url("background-assets/hover.svg") 6;
 }
-.system-menu-action:hover > StIcon, .system-menu-action:focus > StIcon, .system-menu-action:active > StIcon {
-  color: #fff;
-}
 .system-menu-action > StIcon {
   icon-size: 16px;
-  color: rgba(0, 0, 0, 0.65);
 }
 
 /* ===================================================================

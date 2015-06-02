@@ -20,22 +20,13 @@
     padding: 10px;
     border: 0 solid transparent !important;
 
-    //border-image: url("background-assets/light-bg.svg") 6;
-
-
     &:hover, &:focus, &:active {
         color: $text-primary-invert;
         border-radius: 0;
         padding: 10px;
         border: 0 solid transparent !important;
-
         border-image: url("background-assets/hover.svg") 6;
-
-        > StIcon { color: $text-primary-invert; }
     }
 
-    > StIcon {
-        icon-size: 16px;
-        color: $text-primary;
-    }
+    > StIcon { icon-size: 16px; }
 }
