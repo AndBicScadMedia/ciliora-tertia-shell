@@ -10,6 +10,16 @@ Install the user-themes extension and apply the theme in gnome-tweak-tool.
 
 ---
 
+####Login Screen Theme
+
+To apply this theme to your login screen, move the `gnome-shell-theme.gresource` file into `usr/share/gnome-shell` and restart gnome-shell.
+
+__*Make sure that you backup the previous file before doing this!*__
+
+__*Be very careful when doing this! You could potentially break GDM and have a hard time logging back in if you screw up.*__
+
+---
+
 ####Tips
 
 * To get rid of the overview background pattern, edit the gnome-shell.css file at selector `#overview`.
