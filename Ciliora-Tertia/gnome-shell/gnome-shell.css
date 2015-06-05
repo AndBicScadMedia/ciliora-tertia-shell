@@ -154,13 +154,12 @@ StEntry:insensitive StIcon {
   width: 34px;
   height: 20px;
   background-size: contain;
-  padding-top: 0;
 }
 .toggle-switch-us, .toggle-switch-intl {
-  background-image: url("widget-assets/off.svg");
+  background-image: url("widget-assets/alt-off.svg");
 }
 .toggle-switch-us:checked, .toggle-switch-intl:checked {
-  background-image: url("widget-assets/on.svg");
+  background-image: url("widget-assets/alt-on.svg");
 }
 
 /* ===================================================================
