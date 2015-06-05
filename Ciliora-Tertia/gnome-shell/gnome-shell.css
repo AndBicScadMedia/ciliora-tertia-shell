@@ -156,10 +156,10 @@ StEntry:insensitive StIcon {
   background-size: contain;
 }
 .toggle-switch-us, .toggle-switch-intl {
-  background-image: url("widget-assets/alt-off.svg");
+  background-image: url("widget-assets/off.svg");
 }
 .toggle-switch-us:checked, .toggle-switch-intl:checked {
-  background-image: url("widget-assets/alt-on.svg");
+  background-image: url("widget-assets/on.svg");
 }
 
 /* ===================================================================

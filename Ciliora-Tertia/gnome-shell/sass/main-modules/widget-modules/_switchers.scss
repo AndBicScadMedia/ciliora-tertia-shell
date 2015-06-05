@@ -8,10 +8,10 @@
     background-size: contain;
 
     &-us, &-intl {
-        background-image: url("widget-assets/alt-off.svg");
+        background-image: url("widget-assets/off.svg");
     }
 
     &-us:checked, &-intl:checked {
-        background-image: url("widget-assets/alt-on.svg");
+        background-image: url("widget-assets/on.svg");
     }
 }
