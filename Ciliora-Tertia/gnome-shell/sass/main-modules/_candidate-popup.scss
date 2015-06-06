@@ -63,8 +63,19 @@
         -st-natural-width: 0;
         border-image: url("button-assets/linked-button-left.svg") 7;
 
-        &:hover { border-image: url("button-assets/linked-button-left-hover.svg") 7; }
-        &:active { border-image: url("button-assets/linked-button-left-pressed.svg") 7; }
+        &:hover {
+            border-image: url("button-assets/linked-button-left-hover.svg") 7;
+        }
+
+        &:active {
+            border-image: url("button-assets/linked-button-left-pressed.svg") 7;
+        }
+
+        &:insensitive {
+            border-image: url("button-assets/linked-button-left.svg") 7;
+
+            StIcon { color: $text-disabled; }
+        }
     }
 
     &-next {
@@ -74,8 +85,19 @@
         -st-natural-width: 0;
         border-image: url("button-assets/linked-button-right.svg") 7;
 
-        &:hover { border-image: url("button-assets/linked-button-right-hover.svg") 7; }
-        &:active { border-image: url("button-assets/linked-button-right-pressed.svg") 7; }
+        &:hover {
+            border-image: url("button-assets/linked-button-right-hover.svg") 7;
+        }
+
+        &:active {
+            border-image: url("button-assets/linked-button-right-pressed.svg") 7;
+        }
+
+        &:insensitive {
+            border-image: url("button-assets/linked-button-right.svg") 7;
+
+            StIcon { color: $text-disabled; }
+        }
     }
 
     &-icon {
