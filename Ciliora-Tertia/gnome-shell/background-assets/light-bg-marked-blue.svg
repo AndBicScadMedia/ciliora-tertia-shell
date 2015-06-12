@@ -15,8 +15,8 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="desklet-header.svg"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="light-bg-blue-mark.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -29,18 +29,18 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="24.783755"
-     inkscape:cx="10.940583"
-     inkscape:cy="11.389379"
+     inkscape:zoom="14.145833"
+     inkscape:cx="-4.8733014"
+     inkscape:cy="20.297509"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="875"
+     inkscape:window-height="851"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="24"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -62,7 +62,8 @@
      guidecolor="#ff0b00"
      guideopacity="1"
      guidehicolor="#001aff"
-     guidehiopacity="0.49803922">
+     guidehiopacity="0.49803922"
+     inkscape:snap-smooth-nodes="false">
     <inkscape:grid
        type="xygrid"
        id="grid3123"
@@ -89,7 +90,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -130,24 +131,74 @@
      id="layer1"
      transform="translate(0,-276)">
     <path
-       style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none"
-       d="m 2,300 0,-23 20,0 0,23 -1,0 0,-22 -18,0 0,22 z"
-       id="rect3061"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+       style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none"
+       d="M 2 0 C 0.892 0 -5.1014965e-18 0.892 0 2 L 0 22 C 0 23.108 0.892 24 2 24 L 22 24 C 23.108 24 24 23.108 24 22 L 24 2 C 24 0.892 23.108 -5.1014965e-18 22 0 L 2 0 z M 1 1 L 23 1 L 23 23 L 1 23 L 1 1 z "
+       id="rect4145"
+       transform="translate(0,276)" />
     <rect
-       y="-300"
-       x="3"
-       height="22"
-       width="18"
-       id="rect5634"
-       style="opacity:0.5;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="scale(1,-1)" />
+       style="opacity:0.7;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect5188"
+       width="20"
+       height="20"
+       x="2"
+       y="278" />
     <path
-       style="opacity:0.07999998;fill:#000000;fill-opacity:1;stroke:none"
-       d="m 1,300 0,-21 c 0,-1.662 1.338,-3 3,-3 l 16,0 c 1.662,0 3,1.338 3,3 l 0,21 -1,0 0,-23 -2.75,0 -14.5,0 -2.75,0 0,23 z"
-       id="rect3108"
+       style="opacity:0.15;fill:#000000;fill-opacity:1;stroke:none"
+       d="M 1,1 1,23 23,23 23,1 Z M 2,2 22,2 22,22 2,22 Z"
+       id="rect5190"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csssscccccccc" />
+       sodipodi:nodetypes="cccccccccc"
+       transform="translate(0,276)" />
+    <g
+       id="g3087"
+       style="opacity:1">
+      <path
+         style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none"
+         d="m 2,278 20,0 0,1 -20,0 z"
+         id="rect3949"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="matrix(0,1,-1,0,0,0)"
+         style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none"
+         d="m 278,-3 20,0 0,1 -20,0 z"
+         id="rect3951"
+         inkscape:connector-curvature="0" />
+      <path
+         transform="matrix(0,1,-1,0,0,0)"
+         style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none"
+         d="m 278,-22 20,0 0,1 -20,0 z"
+         id="rect3953"
+         inkscape:connector-curvature="0" />
+      <path
+         style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none"
+         d="m 2,297 20,0 0,1 -20,0 z"
+         id="rect3967"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4164">
+      <rect
+         rx="3"
+         y="276"
+         x="0"
+         height="24"
+         width="6"
+         id="rect3792"
+         style="opacity:0.07999998;fill:#007ce6;fill-opacity:1;stroke:none"
+         ry="3" />
+      <path
+         style="opacity:0.7;fill:#275379;fill-opacity:1;stroke:none"
+         d="m 1,277 4,0 0,22 -4,0 z"
+         id="rect4238"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         style="fill:#83a7c7;fill-opacity:1;stroke:none"
+         id="rect4270-9"
+         width="2"
+         height="20"
+         x="2"
+         y="278" />
+    </g>
   </g>
 </svg>

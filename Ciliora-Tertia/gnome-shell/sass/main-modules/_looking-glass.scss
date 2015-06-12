@@ -88,8 +88,10 @@
         spacing: 8px;
 
         > StBoxLayout {
-            padding: 10px;
-            border-image: url("background-assets/light-bg.svg") 10;
+            padding: 10px 10px 10px 14px;
+            border-image: url("background-assets/light-bg-marked-blue.svg") 10;
+            font-size: 9pt;
+            spacing: 1em;
         }
     }
 
@@ -99,8 +101,8 @@
         spacing: 8px;
 
         > StBoxLayout {
-            padding: 10px;
-            border-image: url("background-assets/light-bg.svg") 10;
+            padding: 10px 10px 10px 14px;
+            border-image: url("background-assets/light-bg-marked-green.svg") 10;
             font-size: 9pt;
             spacing: 1em;
         }
@@ -137,7 +139,6 @@
 
 .lg-obj-inspector-button {
     border-image: url("button-assets/button.svg") 7;
-
     font-size: 9pt;
     border: 0 transparent !important;
     padding: 12px 14px;
@@ -164,10 +165,10 @@
 }
 
 .lg-extension {
-    border-image: url("background-assets/light-bg.svg") 7;
     border: 0  transparent !important;
     border-radius: 0 !important;
-    padding: 10px;
+    border-image: url("background-assets/light-bg-marked-violet.svg") 7;
+    padding: 10px 10px 10px 14px;
     color: $text-primary;
     font-size: 9pt;
     spacing: .8em;
