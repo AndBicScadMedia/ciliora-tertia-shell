@@ -9,7 +9,9 @@ stage {
 .shell-link {
   color: rgba(33, 105, 170, 0.85);
   font-weight: normal;
-  text-decoration: underline;
+  text-decoration: none;
+  border: 0 rgba(33, 105, 170, 0.85);
+  border-bottom-width: 1px;
 }
 .shell-link:hover {
   color: #e76d00;

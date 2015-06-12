@@ -29,9 +29,9 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="21.21875"
-     inkscape:cx="-12.807069"
-     inkscape:cy="7.6229748"
+     inkscape:zoom="29.654291"
+     inkscape:cx="7.402446"
+     inkscape:cy="8.6709539"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -131,8 +131,8 @@
      id="layer1"
      transform="translate(0,-284)">
     <path
-       style="display:inline;opacity:0.85;fill:#2169aa;fill-opacity:1;stroke:none"
-       d="m 6,296 0,-8 4,4 z"
+       style="display:inline;opacity:0.65;fill:#000000;fill-opacity:1;stroke:none"
+       d="m 5,298 0,-12 6,6 z"
        id="path18028"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />

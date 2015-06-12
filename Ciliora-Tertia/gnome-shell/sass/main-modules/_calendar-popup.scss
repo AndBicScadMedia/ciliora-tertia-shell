@@ -121,7 +121,9 @@
     font-weight: bold;
     padding: .6em .8em;
 
-    &:focus  { color: $accent-text; }
+    &:focus  {
+        color: $accent-text;
+    }
 }
 
 
