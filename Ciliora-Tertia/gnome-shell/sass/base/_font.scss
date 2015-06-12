@@ -12,9 +12,7 @@ stage {
 .shell-link {
     color: $accent-text;
     font-weight: normal;
-    text-decoration: none;
-    border: 0 $accent-text;
-    border-bottom-width: 1px;
+    text-decoration: underline;
 
     &:hover {
         color: lighten(saturate(invert($accent), 65%), 10%);

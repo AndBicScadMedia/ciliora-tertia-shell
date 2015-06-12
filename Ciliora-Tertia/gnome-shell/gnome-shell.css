@@ -9,9 +9,7 @@ stage {
 .shell-link {
   color: rgba(33, 105, 170, 0.85);
   font-weight: normal;
-  text-decoration: none;
-  border: 0 rgba(33, 105, 170, 0.85);
-  border-bottom-width: 1px;
+  text-decoration: underline;
 }
 .shell-link:hover {
   color: #e76d00;
@@ -2443,6 +2441,8 @@ StEntry:insensitive StIcon {
 #LookingGlassDialog StBoxLayout#Windows > StBoxLayout {
   padding: 10px;
   border-image: url("background-assets/light-bg.svg") 10;
+  font-size: 9pt;
+  spacing: 1em;
 }
 
 .lg-dialog StEntry {
