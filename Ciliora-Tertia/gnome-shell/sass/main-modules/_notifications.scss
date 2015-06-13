@@ -97,24 +97,23 @@
 }
 
 .chat-received {
-    padding-left: 4px;
+    border-image: url("background-assets/light-bg.svg") 7;
+    padding: 1em;
+    margin-left: 2em;
     color: $text-primary;
-    font-weight: bold;
+    font-weight: normal;
 
-    &:rtl {
-        padding-left: 0px;
-        padding-right: 4px;
-    }
+    &:rtl { padding: 1em; }
 }
 
 .chat-sent {
-    padding-left: 18pt;
-    color: $text-secondary;
+    border-image: url("background-assets/light-bg-marked-blue.svg") 7;
+    padding: 1em 1em 1em 1.4em;
+    margin-left: 0;
+    color: $text-primary;
+    font-weight: bold;
 
-    &:rtl {
-        padding-left: 0;
-        padding-right: 18pt;
-    }
+    &:rtl { padding: 1em 1em 1em 1.4em; }
 }
 
 .chat-meta-message {

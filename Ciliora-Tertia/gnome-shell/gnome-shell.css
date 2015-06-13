@@ -2100,22 +2100,25 @@ StEntry:insensitive StIcon {
 }
 
 .chat-received {
-  padding-left: 4px;
+  border-image: url("background-assets/light-bg.svg") 7;
+  padding: 1em;
+  margin-left: 2em;
   color: rgba(0, 0, 0, 0.65);
-  font-weight: bold;
+  font-weight: normal;
 }
 .chat-received:rtl {
-  padding-left: 0px;
-  padding-right: 4px;
+  padding: 1em;
 }
 
 .chat-sent {
-  padding-left: 18pt;
-  color: rgba(0, 0, 0, 0.4);
+  border-image: url("background-assets/light-bg-marked-blue.svg") 7;
+  padding: 1em 1em 1em 1.4em;
+  margin-left: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: bold;
 }
 .chat-sent:rtl {
-  padding-left: 0;
-  padding-right: 18pt;
+  padding: 1em 1em 1em 1.4em;
 }
 
 .chat-meta-message {
