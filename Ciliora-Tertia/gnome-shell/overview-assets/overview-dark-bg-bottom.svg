@@ -135,12 +135,12 @@
        height="22"
        width="23"
        id="rect5315-7-0"
-       style="opacity:0.65;fill:#1e1e1e;fill-opacity:1;stroke:none"
+       style="opacity:0.8;fill:#1e1e1e;fill-opacity:1;stroke:none"
        transform="matrix(0,-1,1,0,0,0)" />
     <path
        id="path4074"
        d="m 24,276 -24,0 0,24 1,0 0,-23 22,0 0,23 1,0 z"
-       style="opacity:0.55;fill:#000000;fill-opacity:1;stroke:none"
+       style="opacity:0.65;fill:#000000;fill-opacity:1;stroke:none"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
   </g>
