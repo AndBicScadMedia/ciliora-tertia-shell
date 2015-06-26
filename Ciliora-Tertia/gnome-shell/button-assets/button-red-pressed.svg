@@ -16,7 +16,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="button-red-pressed.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -31,7 +31,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="14.145833"
-     inkscape:cx="-6.5051715"
+     inkscape:cx="-17.462462"
      inkscape:cy="13.783005"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -39,9 +39,9 @@
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="846"
+     inkscape:window-height="851"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="24"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -114,7 +114,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -159,7 +159,7 @@
        inkscape:connector-curvature="0"
        id="rect4238-3"
        d="m 4,280 16,0 0,16 -16,0 z"
-       style="display:inline;opacity:0.65;fill:#930d0d;fill-opacity:1;stroke:none;enable-background:new" />
+       style="display:inline;opacity:0.7;fill:#6e0a0a;fill-opacity:1;stroke:none;enable-background:new" />
     <rect
        y="281"
        x="5"

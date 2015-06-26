@@ -16,7 +16,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="button-red.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -31,17 +31,17 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="14.145833"
-     inkscape:cx="-15.622976"
-     inkscape:cy="8.7481602"
+     inkscape:cx="10.179676"
+     inkscape:cy="8.6067758"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="846"
+     inkscape:window-height="851"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="24"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -134,7 +134,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -184,7 +184,7 @@
        inkscape:connector-curvature="0"
        id="rect4238-3"
        d="m 4,280 16,0 0,16 -16,0 z"
-       style="display:inline;opacity:0.65;fill:#930d0d;fill-opacity:1;stroke:none;enable-background:new" />
+       style="display:inline;opacity:0.7;fill:#770b0b;fill-opacity:1;stroke:none;enable-background:new" />
     <rect
        style="display:inline;fill:#d06666;fill-opacity:1;stroke:none;enable-background:new"
        id="rect4270-9-3"
