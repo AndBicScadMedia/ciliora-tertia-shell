@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp-sass": "~2.0.1",
+    "gulp-plumber": "~1.0.1",
+    "gulp-util": "~3.0.6",
+    "gulp-notify": "~2.2.0",
+    "gulp-shell": "~0.4.2",
+    "gulp": "~3.9.0"
+    }
+}

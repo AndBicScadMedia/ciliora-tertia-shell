@@ -30,23 +30,44 @@ __*Be very careful when doing this! You could potentially break GDM and have a h
 
 ---
 
-####Using sass
+####Developing
 
 This theme is written using the css preprocessor [sass](http://sass-lang.com/).
 
-
 In case you want to contribute code or report a bug, please report against the relevant sass file and **_not_** the css file!
+
+You should use the provided `gulpfile.js` for improved workflow!
 
 ---
 
-In order to install/use sass:
+__In order to use gulp:__
 
-* [Install ruby.](https://www.ruby-lang.org/en/documentation/installation/)
+* Install [nodejs](https://nodejs.org/) and [npm](https://www.npmjs.com/).
 
-* [Install bundler.](http://bundler.io/#getting-started) (Used to ensure we run the same version of sass.)
+* If you want to contribute, make sure you run the nodejs version from the `.nvmrc` file!
+Use [Nvm!](https://github.com/creationix/nvm)
 
-* To install sass using bundler, run `bundle install` in the directory where the Gemfile is.
+* Install [gulp](http://gulpjs.com/) globally:
+    ```sh
+    $ npm install --global gulp
+    ```
 
-* Run the `parse-sass.sh` script.
+* In the directory where the `gulpfile.js` file is, run:
+    ```sh
+    $ npm install
+    ```
 
-* The script will compile sass and run a sass watch. [For more info check the sass docs.](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass)
+* In the same dir, run the following to use gulp:
+    ```sh
+    $ gulp
+    ```
+
+---
+
+__Gulp will:__
+
+* Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` directory. Even if you change the location of your working directory, running gulp will update the link!
+
+* Compile sass whenever certain files get changed, and...
+
+* Autoreload the theme. (No more `alt + rt` :smile:.) Open `gulpfile.js` to see what files/folders are being watched.
