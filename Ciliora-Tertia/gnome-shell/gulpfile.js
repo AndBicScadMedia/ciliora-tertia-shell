@@ -41,6 +41,7 @@ gulp.task('reloadTheme', ['sass'], shell.task([
 
 // Make a symlink in the ~/.themes dir
 gulp.task('install', function () {
+    fs.mkdir(process.env.HOME+'/.themes/', function(){})
     fs.unlink(process.env.HOME+'/.themes/Ciliora-Tertia/', function(){})
     fs.symlink(__dirname+'/../../Ciliora-Tertia/', process.env.HOME+'/.themes/Ciliora-Tertia', function(){})
 });
