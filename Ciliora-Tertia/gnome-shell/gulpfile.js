@@ -2,6 +2,7 @@ var gulp        = require('gulp'),
     plumber     = require('gulp-plumber'),
     notify      = require('gulp-notify'),
     gutil       = require('gulp-util'),
+    beep        = require('beepbeep'),
     shell       = require('gulp-shell'),
     fs          = require('fs'),
     sass        = require('gulp-sass');
@@ -15,7 +16,7 @@ var onError = function (err) {
         title: 'Task Failed  [ ' + err.plugin + ' ]',
         message: lineNumber
     }).write(err);
-    gutil.beep();
+    beep();
     gutil.log(gutil.colors.red(err));
     this.emit('end');
 };
@@ -62,4 +63,4 @@ gulp.task('watch', function () {
 
 
 // Default task
-gulp.task('default', ['sass', 'install', 'watch']);
+gulp.task('default', ['install', 'sass', 'watch']);
