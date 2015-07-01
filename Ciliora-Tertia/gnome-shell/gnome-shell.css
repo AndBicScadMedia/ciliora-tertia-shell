@@ -225,7 +225,7 @@ StEntry:insensitive StIcon {
   border-radius: 0;
   border-image: url("button-assets/button.svg") 10;
   padding: 10px 30px;
-  -st-natural-width: 30px;
+  -st-natural-width: 24px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.65);
 }
@@ -272,6 +272,12 @@ StEntry:insensitive StIcon {
 .notification-button:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(0, 0, 0, 0.15);
+}
+
+.button StIcon,
+.modal-dialog-button StIcon,
+.notification-button StIcon {
+  icon-size: 16px;
 }
 
 /* ===================================================================

@@ -11,7 +11,7 @@
     border-radius: 0;
     border-image: url("button-assets/button.svg") 10;
     padding: 10px 30px;
-    -st-natural-width: 30px;
+    -st-natural-width: 24px;
     font-weight: bold;
     color: $text-primary;
 
@@ -41,6 +41,10 @@
     &:insensitive {
         border-image: url("button-assets/button-insensitive.svg") 10;
         color: $text-disabled;
+    }
+
+    StIcon {
+        icon-size: 16px;
     }
 }
 
