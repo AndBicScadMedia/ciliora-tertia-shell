@@ -30,7 +30,7 @@ __*Be very careful when doing this! You could potentially break GDM and have a h
 
 ---
 
-####Developing
+####Development
 
 This theme is written using the css preprocessor [sass](http://sass-lang.com/).
 
@@ -42,10 +42,8 @@ You should use the provided `gulpfile.js` for improved workflow!
 
 __In order to use gulp:__
 
-* Install [nodejs](https://nodejs.org/) and [npm](https://www.npmjs.com/).
-
-* If you want to contribute, make sure you run the nodejs version from the `.nvmrc` file!
-Use [Nvm!](https://github.com/creationix/nvm)
+* Install [nodejs](https://nodejs.org/) and [npm](https://www.npmjs.com/). *(__NOTE:__ If you want to contribute, make sure you run the nodejs version from the `.nvmrc` file!
+Use [Nvm!](https://github.com/creationix/nvm))*
 
 * Install [gulp](http://gulpjs.com/) globally:
     ```sh
@@ -66,7 +64,7 @@ Use [Nvm!](https://github.com/creationix/nvm)
 
 __Gulp will:__
 
-* Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` directory. Even if you change the location of your working directory, running gulp will update the link!
+* Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` directory. Even if you change the location of your working directory, running gulp will update the link! *(__NOTE:__ Make sure you don't have a folder named `Ciliora-Tertia` in this dir when you first run gulp!)*
 
 * Compile sass whenever certain files get changed, and...
 
