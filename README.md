@@ -68,4 +68,4 @@ __Gulp will:__
 
 * Compile sass whenever certain files get changed, and...
 
-* Autoreload the theme. (No more `alt + rt` :smile:.) Open `gulpfile.js` to see what files/folders are being watched.
+* Autoreload the theme. (No more `alt-f2 + rt` :smile:.) Open `gulpfile.js` to see what files/folders are being watched.
