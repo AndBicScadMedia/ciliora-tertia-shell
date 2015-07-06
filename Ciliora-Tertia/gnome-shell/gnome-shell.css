@@ -338,6 +338,25 @@ StEntry:insensitive StIcon {
 }
 
 /* ===================================================================
+ * ! Extension dialog button
+ * ===================================================================*/
+.extension-dialog .modal-dialog-button:focus {
+  border-image: url("button-assets/button-violet.svg") 10;
+  color: #fff;
+}
+
+.extension-dialog .modal-dialog-button:focus:hover {
+  border-image: url("button-assets/button-violet-hover.svg") 10;
+  color: #fff;
+}
+
+.extension-dialog .modal-dialog-button:focus:active,
+.extension-dialog .modal-dialog-button:focus:pressed {
+  border-image: url("button-assets/button-violet-pressed.svg") 10;
+  color: #fff;
+}
+
+/* ===================================================================
    ! Slider
    ===================================================================*/
 .slider {
@@ -1399,22 +1418,6 @@ StEntry:insensitive StIcon {
   icon-size: 32px;
   width: 32px;
   height: 32px;
-}
-
-.extension-dialog .modal-dialog-button:focus {
-  border-image: url("button-assets/button-green.svg") 10;
-  color: #fff;
-}
-
-.extension-dialog .modal-dialog-button:focus:hover {
-  border-image: url("button-assets/button-green-hover.svg") 10;
-  color: #fff;
-}
-
-.extension-dialog .modal-dialog-button:focus:active,
-.extension-dialog .modal-dialog-button:focus:pressed {
-  border-image: url("button-assets/button-green-pressed.svg") 10;
-  color: #fff;
 }
 
 /* ===================================================================

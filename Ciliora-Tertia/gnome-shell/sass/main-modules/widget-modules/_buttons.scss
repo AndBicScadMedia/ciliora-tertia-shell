@@ -107,3 +107,25 @@
         border-radius: 0 !important;
     }
 }
+
+/* ===================================================================
+ * ! Extension dialog button
+ * ===================================================================*/
+
+.extension-dialog .modal-dialog-button {
+    &:focus {
+        border-image: url("button-assets/button-violet.svg") 10;
+        color: $text-primary-invert;
+    }
+
+    &:focus:hover {
+        border-image: url("button-assets/button-violet-hover.svg") 10;
+        color: $text-primary-invert;
+    }
+
+    &:focus:active,
+    &:focus:pressed {
+        border-image: url("button-assets/button-violet-pressed.svg") 10;
+        color: $text-primary-invert;
+    }
+}
