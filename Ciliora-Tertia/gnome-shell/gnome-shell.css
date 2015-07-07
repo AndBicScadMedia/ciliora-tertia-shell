@@ -7,7 +7,7 @@ stage {
 }
 
 .shell-link {
-  color: rgba(33, 105, 170, 0.85);
+  color: rgba(0, 80, 152, 0.85);
   font-weight: normal;
   text-decoration: underline;
 }
@@ -1899,7 +1899,7 @@ StEntry:insensitive StIcon {
 }
 
 .datemenu-today-button:hover .day-label, .datemenu-today-button:hover .date-label, .datemenu-today-button:focus .day-label, .datemenu-today-button:focus .date-label, .datemenu-today-button:active .day-label, .datemenu-today-button:active .date-label {
-  color: rgba(33, 105, 170, 0.85);
+  color: rgba(0, 80, 152, 0.85);
   text-decoration: underline;
 }
 
@@ -1941,7 +1941,7 @@ StEntry:insensitive StIcon {
 }
 
 .world-clocks-button:hover .world-clocks-header, .world-clocks-button:focus .world-clocks-header, .world-clocks-button:active .world-clocks-header {
-  color: rgba(33, 105, 170, 0.85);
+  color: rgba(0, 80, 152, 0.85);
   text-decoration: underline;
 }
 
@@ -1999,7 +1999,7 @@ StEntry:insensitive StIcon {
 }
 
 .calendar-month-label:focus {
-  color: rgba(33, 105, 170, 0.85);
+  color: rgba(0, 80, 152, 0.85);
 }
 
 /*--- ! Calendar Days ---*/
@@ -2022,7 +2022,7 @@ StEntry:insensitive StIcon {
 
 .calendar-day-heading:focus {
   background-color: transparent;
-  color: rgba(33, 105, 170, 0.85);
+  color: rgba(0, 80, 152, 0.85);
 }
 
 /*---  ! Work Day ---*/
@@ -2179,7 +2179,7 @@ StEntry:insensitive StIcon {
 
 .message-list-section-title:hover, .message-list-section-title:focus, .message-list-section-title:active {
   background-color: transparent !important;
-  color: rgba(33, 105, 170, 0.85);
+  color: rgba(0, 80, 152, 0.85);
   text-decoration: underline;
 }
 
@@ -2318,7 +2318,7 @@ StEntry:insensitive StIcon {
    ! Notifications
    ===================================================================*/
 .url-highlighter {
-  link-color: rgba(33, 105, 170, 0.85);
+  link-color: rgba(0, 80, 152, 0.85);
 }
 
 .notification-banner {
@@ -2488,7 +2488,7 @@ StEntry:insensitive StIcon {
 .legacy-tray-handle:hover StIcon,
 .legacy-tray-handle:focus StIcon,
 .legacy-tray-icon:hover StIcon, .legacy-tray-icon:focus StIcon {
-  color: rgba(33, 105, 170, 0.85);
+  color: rgba(0, 80, 152, 0.85);
 }
 
 .legacy-tray-icon-box {
@@ -2829,7 +2829,7 @@ StEntry:insensitive StIcon {
 }
 
 .lg-dialog .shell-link {
-  color: rgba(33, 105, 170, 0.85);
+  color: rgba(0, 80, 152, 0.85);
 }
 
 .lg-dialog .shell-link:hover {

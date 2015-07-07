@@ -11,7 +11,7 @@ $text-disabled-invert: alpha(#fff, .3);
 
 // Accentuated text uses a mod of '$accent' for better readability.
 $accent: #83a7c7;
-$accent-text: alpha(saturate(darken($accent, 25%), 30%), .85);
+$accent-text: alpha(saturate(darken($accent, 35%), 65%), .85);
 
 // ------------------------------------------------------------
 
