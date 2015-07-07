@@ -29,9 +29,9 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.145833"
-     inkscape:cx="11.222386"
-     inkscape:cy="7.6514709"
+     inkscape:zoom="13.979167"
+     inkscape:cx="17.232489"
+     inkscape:cy="12"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -132,19 +132,26 @@
      transform="translate(0,-276)">
     <path
        style="opacity:0.8;fill:#8daecb;fill-opacity:1;stroke:none"
-       d="m 1,277 0,22 22,0 0,-22 z m 3,3 16,0 0,16 -16,0 z"
+       d="m 23,277 0,22 -22,0 0,-22 z m -3,3 -16,0 0,16 16,0 z"
        id="rect5315-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <path
-       style="opacity:0.55;fill:#001322;fill-opacity:1;stroke:none"
-       d="m 4,280 0,16 16,0 0,-16 -16,0 z m 1,1 14,0 0,14 -14,0 0,-14 z"
+       style="opacity:0.65;fill:#001322;fill-opacity:1;stroke:none"
+       d="m 20,280 0,16 -16,0 0,-16 16,0 z m -1,1 -14,0 0,14 14,0 0,-14 z"
        id="rect5319-7"
        inkscape:connector-curvature="0" />
     <path
        style="opacity:0.55;fill:#001322;fill-opacity:1;stroke:none"
-       d="m 0,276 0,24 24,0 0,-24 -24,0 z m 1,1 22,0 0,22 -22,0 0,-22 z"
+       d="m 24,276 0,24 -24,0 0,-24 24,0 z m -1,1 -22,0 0,22 22,0 0,-22 z"
        id="path4277"
        inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:0.3;fill:#8daecb;fill-opacity:1"
+       id="rect4304"
+       width="14"
+       height="14"
+       x="5"
+       y="281" />
   </g>
 </svg>
