@@ -2,6 +2,13 @@
 
 ---
 
+* [Installation](#installation)
+* [Login Screen Theme](#login-screen-theme)
+* [Tips](#tips)
+* [Development](#development)
+
+---
+
 ####Installation
 
 Put the `Ciliora-Tertia` folder into your `~/.themes` directory.
