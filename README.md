@@ -1,3 +1,4 @@
+
 ###A theme for gnome-shell _3.16_
 
 ---
@@ -11,9 +12,9 @@
 
 ####Installation
 
-Put the `Ciliora-Tertia` folder into your `~/.themes` directory.
+* Put the `Ciliora-Tertia` folder into your `~/.themes` directory.
 
-Install the user-themes extension and apply the theme in gnome-tweak-tool.
+* Install the user-themes extension and apply the theme in gnome-tweak-tool.
 
 ---
 
