@@ -63,4 +63,4 @@ gulp.task('watch', function () {
 
 
 // Default task
-gulp.task('default', ['install', 'sass', 'watch']);
+gulp.task('default', ['install', 'reloadTheme', 'watch']);
