@@ -5,6 +5,8 @@ var gulp        = require('gulp'),
     beep        = require('beepbeep'),
     shell       = require('gulp-shell'),
     fs          = require('fs'),
+    sequence    = require('run-sequence'),
+    async       = require('async'),
     sass        = require('gulp-sass');
 
 
@@ -34,17 +36,29 @@ gulp.task('sass', function () {
 
 
 // Wait for sass to compile & reload theme
-gulp.task('reloadTheme', ['sass'], shell.task([
-    'gsettings set org.gnome.shell.extensions.user-theme name default',
-    'gsettings set org.gnome.shell.extensions.user-theme name Ciliora-Tertia'
-]));
+gulp.task('reloadTheme', ['sass'], function() {
+    return gulp.src('')
+        .pipe(shell([
+            'gsettings set org.gnome.shell.extensions.user-theme name default',
+            'gsettings set org.gnome.shell.extensions.user-theme name Ciliora-Tertia'
+        ]));
+});
 
 
 // Make a symlink in the ~/.themes dir
-gulp.task('install', function () {
-    fs.mkdir(process.env.HOME+'/.themes/', function(){})
-    fs.unlink(process.env.HOME+'/.themes/Ciliora-Tertia/', function(){})
-    fs.symlink(__dirname+'/../../Ciliora-Tertia/', process.env.HOME+'/.themes/Ciliora-Tertia', function(){})
+gulp.task('install', function (cb) {
+    async.series([
+        function(cb) {
+            fs.mkdir(process.env.HOME+'/.themes', function(){ cb() })
+        },
+        function(cb) {
+            fs.unlink(process.env.HOME+'/.themes/Ciliora-Tertia', function(){ cb() })
+        },
+        function(cb) {
+            fs.symlink(__dirname+'/../../Ciliora-Tertia', process.env.HOME+'/.themes/Ciliora-Tertia', function(){ cb() })
+        }
+    ]);
+    cb();
 });
 
 
@@ -63,4 +77,6 @@ gulp.task('watch', function () {
 
 
 // Default task
-gulp.task('default', ['install', 'reloadTheme', 'watch']);
+gulp.task('default', function(cb) {
+    sequence('install', ['reloadTheme', 'watch'], cb);
+});
