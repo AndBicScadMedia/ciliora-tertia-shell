@@ -5,8 +5,6 @@ var gulp        = require('gulp'),
     beep        = require('beepbeep'),
     shell       = require('gulp-shell'),
     fs          = require('fs'),
-    sequence    = require('run-sequence'),
-    async       = require('async'),
     sass        = require('gulp-sass');
 
 
