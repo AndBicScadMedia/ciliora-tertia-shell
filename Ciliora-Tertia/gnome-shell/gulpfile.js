@@ -48,11 +48,11 @@ gulp.task('install', function () {
         if (err.code !== 'EEXIST') throw err;
     }
     try {
-        fs.unlinkSync(process.env.HOME+'/.themes/Ciliora-Tertia')
+        fs.unlinkSync(process.env.HOME+'/.themes/Ciliora-Tertia');
     } catch (err) {
         if (err.code !== 'ENOENT') throw err;
     }
-        fs.symlinkSync(__dirname+'/../../Ciliora-Tertia', process.env.HOME+'/.themes/Ciliora-Tertia')
+        fs.symlinkSync(__dirname+'/../../Ciliora-Tertia', process.env.HOME+'/.themes/Ciliora-Tertia');
 });
 
 
