@@ -46,19 +46,15 @@ gulp.task('reloadTheme', ['sass'], function() {
 
 
 // Make a symlink in the ~/.themes dir
-gulp.task('install', function (cb) {
-    async.series([
-        function(cb) {
-            fs.mkdir(process.env.HOME+'/.themes', function(){ cb() })
-        },
-        function(cb) {
-            fs.unlink(process.env.HOME+'/.themes/Ciliora-Tertia', function(){ cb() })
-        },
-        function(cb) {
-            fs.symlink(__dirname+'/../../Ciliora-Tertia', process.env.HOME+'/.themes/Ciliora-Tertia', function(){ cb() })
-        }
-    ]);
-    cb();
+gulp.task('install', function () {
+    var data;
+    try {
+        fs.mkdirSync(process.env.HOME+'/.themes')
+    } catch (e) {
+        if (e.code !== 'EEXIST') throw e;
+    }
+        fs.unlinkSync(process.env.HOME+'/.themes/Ciliora-Tertia')
+        fs.symlinkSync(__dirname+'/../../Ciliora-Tertia', process.env.HOME+'/.themes/Ciliora-Tertia');
 });
 
 
@@ -77,6 +73,6 @@ gulp.task('watch', function () {
 
 
 // Default task
-gulp.task('default', function(cb) {
-    sequence('install', ['reloadTheme', 'watch'], cb);
+gulp.task('default', ['install', 'watch'], function() {
+    gulp.start('reloadTheme');
 });
