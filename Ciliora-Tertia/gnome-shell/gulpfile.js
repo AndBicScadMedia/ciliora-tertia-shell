@@ -45,14 +45,13 @@ gulp.task('reloadTheme', ['sass'], function() {
 
 // Make a symlink in the ~/.themes dir
 gulp.task('install', function () {
-    var data;
     try {
         fs.mkdirSync(process.env.HOME+'/.themes')
-    } catch (e) {
-        if (e.code !== 'EEXIST') throw e;
+    } catch (err) {
+        if (err.code !== 'EEXIST') throw err;
     }
         fs.unlinkSync(process.env.HOME+'/.themes/Ciliora-Tertia')
-        fs.symlinkSync(__dirname+'/../../Ciliora-Tertia', process.env.HOME+'/.themes/Ciliora-Tertia');
+        fs.symlinkSync(__dirname+'/../../Ciliora-Tertia', process.env.HOME+'/.themes/Ciliora-Tertia')
 });
 
 
