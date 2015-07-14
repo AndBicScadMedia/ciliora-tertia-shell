@@ -34,23 +34,24 @@ gulp.task('sass', function () {
 
 
 // Wait for sass to compile & reload theme
-gulp.task('reloadTheme', ['sass'], function() {
-    return gulp.src('')
-        .pipe(shell([
-            'gsettings set org.gnome.shell.extensions.user-theme name default',
-            'gsettings set org.gnome.shell.extensions.user-theme name Ciliora-Tertia'
-        ]));
-});
+gulp.task('reloadTheme', ['sass'], shell.task([
+    'gsettings set org.gnome.shell.extensions.user-theme name default',
+    'gsettings set org.gnome.shell.extensions.user-theme name Ciliora-Tertia'
+]));
 
 
 // Make a symlink in the ~/.themes dir
 gulp.task('install', function () {
     try {
-        fs.mkdirSync(process.env.HOME+'/.themes')
+        fs.mkdirSync(process.env.HOME+'/.themes');
     } catch (err) {
         if (err.code !== 'EEXIST') throw err;
     }
+    try {
         fs.unlinkSync(process.env.HOME+'/.themes/Ciliora-Tertia')
+    } catch (err) {
+        if (err.code !== 'ENOENT') throw err;
+    }
         fs.symlinkSync(__dirname+'/../../Ciliora-Tertia', process.env.HOME+'/.themes/Ciliora-Tertia')
 });
 
