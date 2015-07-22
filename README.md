@@ -1,4 +1,3 @@
-
 ###A theme for gnome-shell _3.16_
 
 ---
