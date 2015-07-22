@@ -5,6 +5,7 @@
 * [Installation](#installation)
 * [Login Screen Theme](#login-screen-theme)
 * [Tips](#tips)
+* [Contributing](#contributing)
 * [Development](#development)
 
 ---
@@ -19,7 +20,7 @@
 
 ####Login Screen Theme
 
-To apply this theme to your login screen, move the `gnome-shell-theme.gresource` file into `usr/share/gnome-shell` and restart gnome-shell.
+In order to apply this theme to your login screen, move the `gnome-shell-theme.gresource` file into the `usr/share/gnome-shell` dir and restart gnome-shell.
 
 __*Make sure that you backup the previous file before doing this!*__
 
@@ -37,13 +38,19 @@ __*Be very careful when doing this! You could potentially break GDM and have a h
 
 ---
 
+####Contributing
+
+In case you want to contribute code, __don't edit the css file!__ Instead, edit the relevant sass files(s) and compile to css.
+
+This is a very opinionated project, so try to avoid suggesting visual changes. :grinning:
+
+---
+
 ####Development
 
 This theme is written using the css preprocessor [sass](http://sass-lang.com/).
 
-In case you want to contribute code or report a bug, please report against the relevant sass file and **_not_** the css file!
-
-You should use the provided `gulpfile.js` for improved workflow!
+You should use the provided `gulpfile.js` for improved workflow.
 
 ---
 
@@ -71,8 +78,14 @@ Use [Nvm!](https://github.com/creationix/nvm))*
 
 __Gulp will:__
 
-* Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` directory. Even if you change the location of your working directory, running gulp will update the link! *(__NOTE:__ Make sure you don't have a folder named `Ciliora-Tertia` in this dir when you first run gulp!)*
+* __Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` dir.__
 
-* Compile sass whenever certain files get changed, and...
+    * It will create a `~/.themes` dir if it doesn't exist already.
 
-* Autoreload the theme. (No more `alt-f2 + rt` :smile:.) Open `gulpfile.js` to see what files/folders are being watched.
+    * Even if you change the location of your working directory, running `gulp` will update the link.
+
+    * __NOTE:__ Make sure you don't have a folder named `Ciliora-Tertia` in this dir when you first run gulp.
+
+* __Compile sass__ whenever certain files change. *(Open `gulpfile.js` to see what files/folders are being watched.)*
+
+* __Autoreload the theme.__ *(No more `alt-f2 + rt`. :+1:)*
