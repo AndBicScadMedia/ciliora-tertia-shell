@@ -12,7 +12,7 @@ var gulp        = require('gulp'),
 // Error handler
 var onError = function (err) {
     var errorLine   = (err.line) ? 'Line ' + err.line : '',
-        errorTitle  = 'Error: [ ' + err.plugin + ' ]';
+        errorTitle  = (err.plugin) ? 'Error: [ ' + err.plugin + ' ]' : 'Error';
 
     notify.logLevel(0);
     notify({
