@@ -1,12 +1,11 @@
 @mixin entry($t, $height: 22px, $width: 220px ) {
-
     @if $t==normal {
         background-gradient-direction: none;
-        background-gradient-start:     rgba(0, 0, 0, 0);
-        background-gradient-end:       rgba(0, 0, 0, 0);
-        border: 0;
+        background-gradient-start: rgba(0, 0, 0, 0);
+        background-gradient-end: rgba(0, 0, 0, 0);
         box-shadow: 0 0 rgba(0, 0, 0, 0);
         border-radius: 0;
+        border: 0;
 
         border-image: url("widget-assets/entry.svg") 6;
         padding: 4px 12px 3px 12px;
@@ -44,35 +43,26 @@
         color: $text-disabled;
         StIcon { color: $text-disabled; }
     }
-}
-/* ===================================================================
-   ! Entries
-   ===================================================================*/
 
-StEntry {
-    @include entry(normal);
-
-    &:focus {  @include entry(focus); }
-    &:insensitive {  @include entry(insensitive); }
-}
-
-/*--- ! Floating Entry (used in overview & login)  ---*/
-
-.search-entry {
-    border-image: url("overview-assets/overview-dark-bg.svg") 7;
-    width: 320px;
-    padding: 6px 8px;
-    border-radius: 0;
-    color: $text-disabled-invert;
-    font-size: 9pt;
-
-    StIcon {
-        icon-size: 16px;
-        padding: 0 4px;
+    @else if $t==normal--dark {
+        border-image: url("overview-assets/overview-dark-bg.svg") 7;
+        padding: 6px 8px;
+        height: $height;
+        width: $width;
+        border-radius: 0;
         color: $text-disabled-invert;
+        font-size: 9pt;
+
+        StIcon {
+            icon-size: 16px;
+            padding: 0 4px;
+            color: $text-disabled-invert;
+        }
+
+        &:hover StIcon { color: $text-secondary-invert; }
     }
 
-    &:focus {
+    @else if $t==focus--dark {
         border-image: url("widget-assets/overview-entry-pressed.svg") 7;
         border-width: 0;
         color: fade-in($text-primary, .1);
@@ -83,6 +73,23 @@ StEntry {
 
         &:hover StIcon { color: fade-in($text-primary, .05); }
     }
+}
+/* ===================================================================
+   ! Entries
+   ===================================================================*/
 
-    &:hover StIcon { color: $text-secondary-invert; }
+StEntry {
+    @include entry(normal);
+
+    &:focus { @include entry(focus); }
+
+    &:insensitive { @include entry(insensitive); }
+}
+
+/*--- ! Search entry in overview  ---*/
+
+.search-entry {
+    @include entry(normal--dark, $width: 320px);
+
+    &:focus { @include entry(focus--dark); }
 }

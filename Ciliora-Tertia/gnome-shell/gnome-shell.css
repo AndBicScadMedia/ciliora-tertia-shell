@@ -83,9 +83,9 @@ StEntry {
   background-gradient-direction: none;
   background-gradient-start: transparent;
   background-gradient-end: transparent;
-  border: 0;
   box-shadow: 0 0 transparent;
   border-radius: 0;
+  border: 0;
   border-image: url("widget-assets/entry.svg") 6;
   padding: 4px 12px 3px 12px;
   height: 22px;
@@ -129,11 +129,12 @@ StEntry:insensitive StIcon {
   color: rgba(0, 0, 0, 0.15);
 }
 
-/*--- ! Floating Entry (used in overview & login)  ---*/
+/*--- ! Search entry in overview  ---*/
 .search-entry {
   border-image: url("overview-assets/overview-dark-bg.svg") 7;
-  width: 320px;
   padding: 6px 8px;
+  height: 22px;
+  width: 320px;
   border-radius: 0;
   color: rgba(255, 255, 255, 0.3);
   font-size: 9pt;
@@ -143,6 +144,10 @@ StEntry:insensitive StIcon {
   icon-size: 16px;
   padding: 0 4px;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.search-entry:hover StIcon {
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .search-entry:focus {
@@ -159,10 +164,6 @@ StEntry:insensitive StIcon {
 
 .search-entry:focus:hover StIcon {
   color: rgba(0, 0, 0, 0.7);
-}
-
-.search-entry:hover StIcon {
-  color: rgba(255, 255, 255, 0.65);
 }
 
 /* ===================================================================
