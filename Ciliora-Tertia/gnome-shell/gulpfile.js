@@ -14,7 +14,7 @@ var onError = function (err) {
     var errorLine   = (err.line) ? 'Line ' + err.line : '',
         errorTitle  = 'Error in plugin  [ ' + err.plugin + ' ]';
 
-notify.logLevel(0);
+    notify.logLevel(0);
     notify({
             title: errorTitle,
             message: errorLine
