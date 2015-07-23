@@ -8,16 +8,19 @@ var gulp        = require('gulp'),
     sass        = require('gulp-sass');
 
 
+
 // Error handler
 var onError = function (err) {
-    var lineNumber = (err.line) ? 'Line ' + err.line : '';
+    var errorLine   = (err.line) ? 'Line ' + err.line : '',
+        errorTitle  = 'Error in plugin  [ ' + err.plugin + ' ]';
 
+notify.logLevel(0);
     notify({
-        title: 'Task Failed  [ ' + err.plugin + ' ]',
-        message: lineNumber
+            title: errorTitle,
+            message: errorLine
     }).write(err);
     beep();
-    gutil.log(gutil.colors.red(err));
+    gutil.log(gutil.colors.red(errorTitle +'\n', err.message));
     this.emit('end');
 };
 
