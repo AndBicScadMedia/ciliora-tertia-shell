@@ -12,7 +12,7 @@ var gulp        = require('gulp'),
 // Error handler
 var onError = function (err) {
     var errorLine   = (err.line) ? 'Line ' + err.line : '',
-        errorTitle  = 'Error in plugin  [ ' + err.plugin + ' ]';
+        errorTitle  = 'Error: [ ' + err.plugin + ' ]';
 
     notify.logLevel(0);
     notify({
@@ -20,7 +20,7 @@ var onError = function (err) {
             message: errorLine
     }).write(err);
     beep();
-    gutil.log(gutil.colors.red(errorTitle +'\n', err.message));
+    gutil.log(gutil.colors.red('\n'+errorTitle+'\n\n', err.message));
     this.emit('end');
 };
 
