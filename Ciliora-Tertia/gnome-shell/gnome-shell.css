@@ -847,13 +847,13 @@ StEntry:insensitive StIcon {
   color: rgba(255, 255, 255, 0.65);
 }
 
-.app-view-control:hover {
+.app-view-control:hover, .app-view-control:focus {
   border-image: url("overview-assets/overview-light-bg-hover.svg") 7;
   color: #fff;
 }
 
-.app-view-control:checked {
-  border-image: url("overview-assets/overview-highlight-bg.svg") 7;
+.app-view-control:checked, .app-view-control:active {
+  border-image: url("overview-assets/overview-highlight-bg.svg") 7 !important;
   color: #fff;
 }
 
