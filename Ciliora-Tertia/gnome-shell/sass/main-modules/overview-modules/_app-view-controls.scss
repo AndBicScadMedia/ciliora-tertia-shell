@@ -18,7 +18,7 @@
         color: $text-primary-invert;
     }
 
-    &:checked, &:active {
+    &:checked, &:focus:active {
         border-image: url("overview-assets/overview-highlight-bg.svg") 7 !important;
         color: $text-primary-invert;
     }
