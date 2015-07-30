@@ -170,48 +170,48 @@ StEntry:insensitive StIcon {
    ! Switchers
    ===================================================================*/
 .toggle-switch {
-  width: 34px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   background-size: contain;
 }
 
 .toggle-switch-us, .toggle-switch-intl {
-  background-image: url("widget-assets/off.svg");
+  background-image: url("widget-assets/checkbox.svg");
 }
 
 .toggle-switch-us:checked, .toggle-switch-intl:checked {
-  background-image: url("widget-assets/on.svg");
+  background-image: url("widget-assets/checkbox-checked.svg");
 }
 
 /* ===================================================================
    ! Checkboxes
    ===================================================================*/
-.check-box StBoxLayout {
+.checkbox StBoxLayout {
   spacing: .4em;
   min-height: 17px;
   padding-bottom: 2px;
 }
 
-.check-box StLabel {
+.checkbox StLabel {
   padding-top: .1em;
 }
 
-.check-box StBin {
+.checkbox StBin {
   width: 17px;
   height: 17px;
-  background-image: url("widget-assets/check-box.svg");
+  background-image: url("widget-assets/checkbox.svg");
 }
 
-.check-box:focus StBin {
-  background-image: url("widget-assets/check-box-focused.svg");
+.checkbox:focus StBin {
+  background-image: url("widget-assets/checkbox-focused.svg");
 }
 
-.check-box:checked StBin {
-  background-image: url("widget-assets/check-box-checked.svg");
+.checkbox:checked StBin {
+  background-image: url("widget-assets/checkbox-checked.svg");
 }
 
-.check-box:focus:checked StBin {
-  background-image: url("widget-assets/check-box-focused-checked.svg");
+.checkbox:focus:checked StBin {
+  background-image: url("widget-assets/checkbox-focused-checked.svg");
 }
 
 /* ===================================================================
@@ -1045,12 +1045,12 @@ StEntry:insensitive StIcon {
   text-align: right;
 }
 
-.end-session-dialog .check-box {
+.end-session-dialog .checkbox {
   margin-top: .4em;
   margin-bottom: .4em;
 }
 
-.end-session-dialog .check-box StLabel {
+.end-session-dialog .checkbox StLabel {
   font-weight: bold;
 }
 

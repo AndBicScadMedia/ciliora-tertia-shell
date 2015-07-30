@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="21.21875"
-     inkscape:cx="-4.173785"
-     inkscape:cy="7.9057437"
+     inkscape:cx="-0.16789398"
+     inkscape:cy="7.8114874"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -133,11 +133,6 @@
      inkscape:label="Base"
      id="layer1"
      transform="translate(0,-283)">
-    <path
-       inkscape:connector-curvature="0"
-       style="display:inline;opacity:0.01;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
-       d="M 8.5,283 A 8.5000029,8.5 0 0 0 0,291.5 8.5000029,8.5 0 0 0 8.5,300 8.5000029,8.5 0 0 0 17,291.5 8.5000029,8.5 0 0 0 8.5,283 Z m 0,1 A 7.5000024,7.5 0 0 1 16,291.5 7.5000024,7.5 0 0 1 8.5,299 7.5000024,7.5 0 0 1 1,291.5 7.5000024,7.5 0 0 1 8.5,284 Z"
-       id="ellipse6048" />
     <circle
        style="opacity:0.7;fill:#ffffff;fill-opacity:1;stroke:none"
        id="path3681"
@@ -149,10 +144,5 @@
        d="m 8.5,284 c -4.142134,0 -7.5,3.35787 -7.5,7.5 0,4.14213 3.357866,7.5 7.5,7.5 4.142134,0 7.5,-3.35787 7.5,-7.5 0,-4.14213 -3.357866,-7.5 -7.5,-7.5 z m 0,1 c 3.589851,0 6.5,2.91015 6.5,6.5 0,3.58985 -2.910149,6.5 -6.5,6.5 C 4.9101492,298 2,295.08985 2,291.5 2,287.91015 4.9101492,285 8.5,285 Z"
        id="path3694"
        inkscape:connector-curvature="0" />
-    <path
-       style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none"
-       d="M 8.5 2 A 6.5 6.5 0 0 0 2 8.5 A 6.5 6.5 0 0 0 8.5 15 A 6.5 6.5 0 0 0 15 8.5 A 6.5 6.5 0 0 0 8.5 2 z M 8.5 3 A 5.5 5.5 0 0 1 14 8.5 A 5.5 5.5 0 0 1 8.5 14 A 5.5 5.5 0 0 1 3 8.5 A 5.5 5.5 0 0 1 8.5 3 z "
-       id="circle6944"
-       transform="translate(0,283)" />
   </g>
 </svg>

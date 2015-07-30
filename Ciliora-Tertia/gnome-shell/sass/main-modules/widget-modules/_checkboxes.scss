@@ -2,7 +2,7 @@
    ! Checkboxes
    ===================================================================*/
 
-.check-box {
+.checkbox {
     StBoxLayout {
         spacing: .4em;
         min-height: 17px;
@@ -16,18 +16,18 @@
     StBin {
         width: 17px;
         height: 17px;
-        background-image: url("widget-assets/check-box.svg");
+        background-image: url("widget-assets/checkbox.svg");
     }
 
     &:focus StBin {
-        background-image: url("widget-assets/check-box-focused.svg");
+        background-image: url("widget-assets/checkbox-focused.svg");
     }
 
     &:checked StBin {
-        background-image: url("widget-assets/check-box-checked.svg");
+        background-image: url("widget-assets/checkbox-checked.svg");
     }
 
     &:focus:checked StBin {
-        background-image: url("widget-assets/check-box-focused-checked.svg");
+        background-image: url("widget-assets/checkbox-focused-checked.svg");
     }
 }
