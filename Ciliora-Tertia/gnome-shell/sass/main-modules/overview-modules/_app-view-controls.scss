@@ -19,7 +19,7 @@
     }
 
     &:checked, &:focus:active {
-        border-image: url("overview-assets/overview-highlight-bg.svg") 7 !important;
+        border-image: url("overview-assets/overview-highlight-bg.svg") 7;
         color: $text-primary-invert;
     }
 }

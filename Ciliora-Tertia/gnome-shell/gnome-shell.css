@@ -853,7 +853,7 @@ StEntry:insensitive StIcon {
 }
 
 .app-view-control:checked, .app-view-control:focus:active {
-  border-image: url("overview-assets/overview-highlight-bg.svg") 7 !important;
+  border-image: url("overview-assets/overview-highlight-bg.svg") 7;
   color: #fff;
 }
 
