@@ -170,17 +170,17 @@ StEntry:insensitive StIcon {
    ! Switchers
    ===================================================================*/
 .toggle-switch {
-  width: 17px;
-  height: 17px;
+  width: 34px;
+  height: 20px;
   background-size: contain;
 }
 
 .toggle-switch-us, .toggle-switch-intl {
-  background-image: url("widget-assets/checkbox.svg");
+  background-image: url("widget-assets/off.svg");
 }
 
 .toggle-switch-us:checked, .toggle-switch-intl:checked {
-  background-image: url("widget-assets/checkbox-checked.svg");
+  background-image: url("widget-assets/on.svg");
 }
 
 /* ===================================================================
@@ -2533,21 +2533,21 @@ StEntry:insensitive StIcon {
 }
 
 .keyboard-layout {
-  spacing: 8px;
+  spacing: 5px;
   padding: 8px;
 }
 
 .keyboard-row {
-  spacing: 15px;
+  spacing: 5px;
 }
 
 .keyboard-key {
-  background-color: transparent !important;
   background-gradient-direction: none !important;
-  border: none !important;
+  background-color: transparent !important;
   border-radius: 0 !important;
+  border: none !important;
   border-image: url("button-assets/button.svg") 7;
-  padding: 16px;
+  padding: 0;
   color: rgba(0, 0, 0, 0.65);
   font-size: 12pt;
   font-weight: bold;
@@ -2577,6 +2577,32 @@ StEntry:insensitive StIcon {
   -arrow-base: 16px;
   -arrow-rise: 0;
   -boxpointer-gap: 2px;
+}
+
+/* Backspace, return, hide-keyboard & abc/123 keys */
+.keyboard-layout > *:first-child .keyboard-row > *:last-child,
+.keyboard-layout .keyboard-row:last-child > *:last-child,
+.keyboard-layout > *:last-child .keyboard-row:last-child > *:last-child,
+.keyboard-layout > *:last-child .keyboard-row:first-child > *:last-child {
+  border-image: url("button-assets/button-darker.svg") 7;
+}
+
+.keyboard-layout > *:first-child .keyboard-row > *:last-child:hover,
+.keyboard-layout .keyboard-row:last-child > *:last-child:hover,
+.keyboard-layout > *:last-child .keyboard-row:last-child > *:last-child:hover,
+.keyboard-layout > *:last-child .keyboard-row:first-child > *:last-child:hover {
+  border-image: url("button-assets/button-darker-hover.svg") 7;
+}
+
+.keyboard-layout > *:first-child .keyboard-row > *:last-child:checked,
+.keyboard-layout > *:first-child .keyboard-row > *:last-child:active,
+.keyboard-layout .keyboard-row:last-child > *:last-child:checked,
+.keyboard-layout .keyboard-row:last-child > *:last-child:active,
+.keyboard-layout > *:last-child .keyboard-row:last-child > *:last-child:checked,
+.keyboard-layout > *:last-child .keyboard-row:last-child > *:last-child:active,
+.keyboard-layout > *:last-child .keyboard-row:first-child > *:last-child:checked,
+.keyboard-layout > *:last-child .keyboard-row:first-child > *:last-child:active {
+  border-image: url("button-assets/button-darker-pressed.svg") 7;
 }
 
 /* ===================================================================

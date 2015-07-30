@@ -7,22 +7,21 @@
 }
 
 .keyboard-layout {
-    spacing: 8px;
+    spacing: 5px;
     padding: 8px;
 }
 
 .keyboard-row {
-    spacing: 15px;
+    spacing: 5px;
 }
 
 .keyboard-key {
-    background-color: transparent !important;
     background-gradient-direction: none !important;
-    border: none !important;
+    background-color: transparent !important;
     border-radius: 0 !important;
-
+    border: none !important;
     border-image: url("button-assets/button.svg") 7;
-    padding: 16px;
+    padding: 0;
     color: $text-primary;
     font-size: 12pt;
     font-weight: bold;
@@ -52,4 +51,21 @@
     -arrow-base: 16px;
     -arrow-rise: 0;
     -boxpointer-gap: 2px;
+}
+
+/* Backspace, return, hide-keyboard & abc/123 keys */
+.keyboard-layout > *:first-child .keyboard-row > *:last-child,
+.keyboard-layout .keyboard-row:last-child > *:last-child,
+.keyboard-layout > *:last-child .keyboard-row:last-child > *:last-child,
+.keyboard-layout > *:last-child .keyboard-row:first-child > *:last-child {
+    border-image: url("button-assets/button-darker.svg") 7;
+
+    &:hover {
+        border-image: url("button-assets/button-darker-hover.svg") 7;
+    }
+
+    &:checked,
+    &:active {
+        border-image: url("button-assets/button-darker-pressed.svg") 7;
+    }
 }

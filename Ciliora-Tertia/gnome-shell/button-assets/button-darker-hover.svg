@@ -16,7 +16,7 @@
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="keyboard-bg.svg"
+   sodipodi:docname="button-darker-hover.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -29,9 +29,9 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.145833"
-     inkscape:cx="7.3338846"
-     inkscape:cy="2.6686321"
+     inkscape:zoom="21.183741"
+     inkscape:cx="8.4499187"
+     inkscape:cy="12.528693"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -46,7 +46,7 @@
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      gridtolerance="10000"
-     inkscape:object-nodes="false"
+     inkscape:object-nodes="true"
      inkscape:snap-grids="true"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -62,7 +62,8 @@
      guidecolor="#ff0b00"
      guideopacity="1"
      guidehicolor="#001aff"
-     guidehiopacity="0.49803922">
+     guidehiopacity="0.49803922"
+     inkscape:snap-smooth-nodes="false">
     <inkscape:grid
        type="xygrid"
        id="grid3123"
@@ -72,7 +73,19 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <defs
-     id="defs3" />
+     id="defs3">
+    <linearGradient
+       id="linearGradient4127">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0"
+         id="stop4129" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop4131" />
+    </linearGradient>
+  </defs>
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -89,7 +102,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -129,33 +142,41 @@
      inkscape:label="Base"
      id="layer1"
      transform="translate(0,-276)">
+    <path
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;enable-background:new;opacity:0.02"
+       d="M 5 3 C 3.892 3 3 3.892 3 5 L 3 19 C 3 20.108 3.892 21 5 21 L 19 21 C 20.108 21 21 20.108 21 19 L 21 5 C 21 3.892 20.108 3 19 3 L 5 3 z M 4 4 L 20 4 L 20 20 L 4 20 L 4 4 z "
+       id="rect4157"
+       transform="translate(0,276)" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new;opacity:0.25"
+       d="m 4,280 16,0 0,16 -16,0 z"
+       id="rect4238-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <rect
-       y="278"
-       x="1.3322676e-15"
-       height="22"
-       width="24"
-       id="rect5634"
-       style="opacity:0.9;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="fill:#dadada;fill-opacity:1;stroke:none;display:inline;enable-background:new"
+       id="rect4270-9-3"
+       width="14"
+       height="14"
+       x="5"
+       y="281" />
     <rect
-       style="opacity:0.01000001;fill:#000000;fill-opacity:1;stroke:none"
-       id="rect4184"
-       width="24"
+       ry="2"
+       y="296"
+       x="4"
        height="1"
-       x="0"
-       y="278" />
+       width="16"
+       id="rect4030"
+       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none"
+       rx="2" />
     <rect
-       style="opacity:0.15;fill:#000000;fill-opacity:1;stroke:none"
-       id="rect2986"
-       width="24"
+       rx="2"
+       style="opacity:0.16000001;fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4148"
+       width="16"
        height="1"
-       x="0"
-       y="277" />
-    <rect
-       y="276"
-       x="0"
-       height="1"
-       width="24"
-       id="rect4136"
-       style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none" />
+       x="4"
+       y="295"
+       ry="2" />
   </g>
 </svg>
