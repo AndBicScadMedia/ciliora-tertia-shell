@@ -5,12 +5,12 @@
 .osd-window {
     text-align: center;
     font-weight: bold;
+    color: $text-primary;
     spacing: 1em;
+    padding: 18px;
     margin: 32px;
     min-width: 48px;
     min-height: 48px;
-    color: $text-primary;
-
     border-image: url("background-assets/popup.svg") 7;
 
     StIcon { color: $text-primary; }
@@ -26,7 +26,6 @@
     border-radius: 0 !important;
     background-color: rgba(11, 12, 13, 0.5);
     color: saturate(darken(alpha($accent, .45), 30%), 45%);
-
     padding: 6px 5px;
     border-image: url("widget-assets/slider-OSD.svg") 9 6 8 8;
 }
