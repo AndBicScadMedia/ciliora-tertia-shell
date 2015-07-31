@@ -3,23 +3,20 @@ $text-primary:   alpha(#000, .65);
 $text-secondary: alpha(#000, .4);
 $text-disabled:  alpha(#000, .15);
 
-$text-primary-invert: #fff;
+$text-primary-invert:   #fff;
 $text-secondary-invert: alpha(#fff, .65);
-$text-disabled-invert: alpha(#fff, .3);
+$text-disabled-invert:  alpha(#fff, .3);
 
-// ------------------------------------------------------------
 
 // Accentuated text uses a mod of '$accent' for better readability.
 $accent: #83a7c7;
-$accent-text: alpha(saturate(darken($accent, 35%), 65%), .85);
+$accent-text: alpha(saturate(darken($accent, 32%), 60%), .85);
 
-// ------------------------------------------------------------
 
 // Warning text uses a mod of '$warning' for better readability.
 $warning: #e86b6b;
 $warning-text: alpha(saturate(darken($warning, 20%), 100%), .7);
 
-// ------------------------------------------------------------
 
 // The following selectors use modified standard colors:
 //  .shell-link:hover
