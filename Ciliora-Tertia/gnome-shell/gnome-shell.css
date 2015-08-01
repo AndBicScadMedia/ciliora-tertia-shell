@@ -2568,18 +2568,6 @@ StEntry:insensitive StIcon {
   color: rgba(0, 0, 0, 0.15);
 }
 
-.keyboard-subkeys {
-  border-image: url("background-assets/popup.svg") 7;
-  padding: 0;
-  -arrow-border-radius: 0;
-  -arrow-background-color: transparent;
-  -arrow-border-color: transparent;
-  -arrow-border-width: 1px;
-  -arrow-base: 16px;
-  -arrow-rise: 0;
-  -boxpointer-gap: 2px;
-}
-
 /* Backspace, return, hide-keyboard & abc/123 keys */
 .keyboard-layout > *:first-child .keyboard-row > *:last-child,
 .keyboard-layout .keyboard-row:last-child > *:last-child,
@@ -2604,6 +2592,18 @@ StEntry:insensitive StIcon {
 .keyboard-layout > *:last-child .keyboard-row:first-child > *:last-child:checked,
 .keyboard-layout > *:last-child .keyboard-row:first-child > *:last-child:active {
   border-image: url("button-assets/button-darker-pressed.svg") 7;
+}
+
+.keyboard-subkeys {
+  border-image: url("background-assets/popup.svg") 7;
+  padding: 0;
+  -arrow-border-radius: 0;
+  -arrow-background-color: transparent;
+  -arrow-border-color: transparent;
+  -arrow-border-width: 1px;
+  -arrow-base: 16px;
+  -arrow-rise: 0;
+  -boxpointer-gap: 2px;
 }
 
 /* ===================================================================
