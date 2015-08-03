@@ -2594,6 +2594,7 @@ StEntry:insensitive StIcon {
   border-image: url("button-assets/button-darker-pressed.svg") 7;
 }
 
+/* subkeys popup */
 .keyboard-subkeys {
   border-image: url("background-assets/popup.svg") 7;
   padding: 0;
