@@ -121,7 +121,7 @@
 .lg-dialog .shell-link {
     color: $accent-text;
 
-    &:hover { color: lighten(saturate(invert($accent), 65%), 10%); }
+    &:hover { color: $accent-text-hover; }
 }
 
 .lg-completions-text {

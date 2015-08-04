@@ -15,7 +15,7 @@ stage {
     text-decoration: underline;
 
     &:hover {
-        color: lighten(saturate(invert($accent), 65%), 10%);
+        color: $accent-text-hover;
     }
 }
 
