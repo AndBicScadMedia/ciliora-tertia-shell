@@ -2801,23 +2801,23 @@ StEntry:insensitive StIcon {
   border-image: url("button-assets/linked-button-left.svg") 7;
 }
 
+#LookingGlassDialog .notebook-tab:first-child:hover {
+  border-image: url("button-assets/linked-button-left-hover.svg") 7;
+}
+
+#LookingGlassDialog .notebook-tab:first-child:selected {
+  border-image: url("button-assets/linked-button-left-pressed.svg") 7;
+}
+
 #LookingGlassDialog .notebook-tab:last-child {
   border-image: url("button-assets/linked-button-right.svg") 7;
 }
 
-#LookingGlassDialog .notebook-tab:hover:first-child {
-  border-image: url("button-assets/linked-button-left-hover.svg") 7;
-}
-
-#LookingGlassDialog .notebook-tab:hover:last-child {
+#LookingGlassDialog .notebook-tab:last-child:hover {
   border-image: url("button-assets/linked-button-right-hover.svg") 7;
 }
 
-#LookingGlassDialog .notebook-tab:selected:first-child {
-  border-image: url("button-assets/linked-button-left-pressed.svg") 7;
-}
-
-#LookingGlassDialog .notebook-tab:selected:last-child {
+#LookingGlassDialog .notebook-tab:last-child:selected {
   border-image: url("button-assets/linked-button-right-pressed.svg") 7;
 }
 

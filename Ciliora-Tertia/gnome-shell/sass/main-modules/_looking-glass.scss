@@ -53,26 +53,26 @@
 
         &:first-child {
             border-image: url("button-assets/linked-button-left.svg") 7;
+
+            &:hover {
+                border-image: url("button-assets/linked-button-left-hover.svg") 7;
+            }
+
+            &:selected {
+                border-image: url("button-assets/linked-button-left-pressed.svg") 7;
+            }
         }
 
         &:last-child {
             border-image: url("button-assets/linked-button-right.svg") 7;
-        }
 
-        &:hover:first-child {
-            border-image: url("button-assets/linked-button-left-hover.svg") 7;
-        }
+            &:hover {
+                border-image: url("button-assets/linked-button-right-hover.svg") 7;
+            }
 
-        &:hover:last-child {
-            border-image: url("button-assets/linked-button-right-hover.svg") 7;
-        }
-
-        &:selected:first-child {
-            border-image: url("button-assets/linked-button-left-pressed.svg") 7;
-        }
-
-        &:selected:last-child {
-            border-image: url("button-assets/linked-button-right-pressed.svg") 7;
+            &:selected {
+                border-image: url("button-assets/linked-button-right-pressed.svg") 7;
+            }
         }
     }
 
