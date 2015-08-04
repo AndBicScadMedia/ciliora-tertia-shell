@@ -1,3 +1,6 @@
+![License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)
+![Latest gnome-shell version](https://img.shields.io/badge/gnome--shell-3.16-brightgreen.svg?style=flat-square)
+
 ###A theme for gnome-shell _3.16_
 
 ---
