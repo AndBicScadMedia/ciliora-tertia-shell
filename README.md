@@ -47,6 +47,7 @@ In order to apply this theme to your login screen, move the `gnome-shell-theme.g
 This theme supports gnome-shell **3.16** only.
 
 ---
+
 ####Contributing
 
 In case you want to contribute code, **don't edit the css file!** Instead, edit the relevant sass files(s) and compile to css.
