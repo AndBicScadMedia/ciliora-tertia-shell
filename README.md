@@ -1,13 +1,14 @@
-![License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)
-![Latest gnome-shell version](https://img.shields.io/badge/gnome--shell-3.16-brightgreen.svg?style=flat-square)
+[![ License ](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)](LICENSE)
+[![ Latest gnome-shell version ](https://img.shields.io/badge/gnome--shell-3.16-brightgreen.svg?style=flat-square)](#shell-support)
 
-###A theme for gnome-shell _3.16_
+###A theme for gnome-shell
 
 ---
 
 * [Installation](#installation)
-* [Login Screen Theme](#login-screen-theme)
+* [Login Screen](#login-screen)
 * [Tips](#tips)
+* [Shell Support](#shell-support)
 * [Contributing](#contributing)
 * [Development](#development)
 
@@ -21,13 +22,13 @@
 
 ---
 
-####Login Screen Theme
+####Login Screen
 
 In order to apply this theme to your login screen, move the `gnome-shell-theme.gresource` file into the `usr/share/gnome-shell` dir and restart gnome-shell.
 
-__*Make sure that you backup the previous file before doing this!*__
+**_Make sure that you backup the previous file before doing this!_**
 
-__*Be very careful when doing this! You could potentially break GDM and have a hard time logging back in if you screw up.*__
+**_Be very careful when doing this! You could potentially break GDM and have a hard time logging back in if you screw up._**
 
 ---
 
@@ -41,9 +42,14 @@ __*Be very careful when doing this! You could potentially break GDM and have a h
 
 ---
 
+####Shell support
+
+This theme supports gnome-shell **3.16** only.
+
+---
 ####Contributing
 
-In case you want to contribute code, __don't edit the css file!__ Instead, edit the relevant sass files(s) and compile to css.
+In case you want to contribute code, **don't edit the css file!** Instead, edit the relevant sass files(s) and compile to css.
 
 This is a very opinionated project, so try to avoid suggesting visual changes. :grinning:
 
@@ -51,44 +57,45 @@ This is a very opinionated project, so try to avoid suggesting visual changes. :
 
 ####Development
 
-This theme is written using the css preprocessor [sass](http://sass-lang.com/).
+This theme is written using the css preprocessor [sass](http://sass-lang.com/).  
 
 You should use the provided `gulpfile.js` for improved workflow.
 
 ---
 
-__In order to use gulp:__
+**In order to use gulp:**
 
-* Install [nodejs](https://nodejs.org/) and [npm](https://www.npmjs.com/). *(__NOTE:__ If you want to contribute, make sure you run the nodejs version from the `.nvmrc` file!
-Use [Nvm!](https://github.com/creationix/nvm))*
+* Install [nodejs](https://nodejs.org/) and [npm](https://www.npmjs.com/).
+    * **NOTE:** If you want to contribute, make sure you run the nodejs version from the `.nvmrc` file. Use [Nvm.](https://github.com/creationix/nvm)
 
 * Install [gulp](http://gulpjs.com/) globally:
-    ```sh
-    $ npm install --global gulp
-    ```
+
+        $ npm i -g gulp
 
 * In the directory where the `gulpfile.js` file is, run:
-    ```sh
-    $ npm install
+
+    ```
+    $ npm i
     ```
 
 * In the same dir, run the following to use gulp:
-    ```sh
+
+    ```
     $ gulp
     ```
 
 ---
 
-__Gulp will:__
+**Gulp will:**
 
-* __Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` dir.__
+* **Make a symlink of the** `Ciliora-Tertia` **folder inside the** `~/.themes` **dir.**
 
     * It will create a `~/.themes` dir if it doesn't exist already.
 
     * Even if you change the location of your working directory, running `gulp` will update the link.
 
-    * __NOTE:__ Make sure you don't have a folder named `Ciliora-Tertia` in this dir when you first run gulp.
+    * **NOTE:** Make sure you don't have a folder named `Ciliora-Tertia` in this dir when you first run gulp.
 
-* __Compile sass__ whenever certain files change. *(Open `gulpfile.js` to see what files/folders are being watched.)*
+* **Compile sass** whenever certain files change. _(Open `gulpfile.js` to see what files/folders are being watched.)_
 
-* __Autoreload the theme.__ *(No more `alt-f2 + rt`. :+1:)*
+* **Autoreload the theme** on save. _(No more `alt-f2 + rt`. :+1:)_
