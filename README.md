@@ -1,5 +1,5 @@
 [![ License ](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)](LICENSE)
-[![ Latest gnome-shell version ](https://img.shields.io/badge/gnome--shell-3.16-brightgreen.svg?style=flat-square)](#shell-support)
+[![ Latest gnome-shell version ](https://img.shields.io/badge/gnome--shell-3.16-brightgreen.svg?style=flat-square)](#compatibility)
 
 ###A theme for gnome-shell
 
@@ -8,7 +8,7 @@
 * [Installation](#installation)
 * [Login Screen](#login-screen)
 * [Tips](#tips)
-* [Shell Support](#shell-support)
+* [Compatibility](#compatibility)
 * [Contributing](#contributing)
 * [Development](#development)
 
@@ -42,7 +42,7 @@ In order to apply this theme to your login screen, move the `gnome-shell-theme.g
 
 ---
 
-####Shell support
+####Compatibility
 
 This theme supports gnome-shell **3.16** only.
 
