@@ -12,10 +12,11 @@ stage {
 .shell-link {
     color: $accent-text;
     font-weight: normal;
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
-        color: $accent-text-hover;
+        color: $accent-text;
+        text-decoration: underline;
     }
 }
 

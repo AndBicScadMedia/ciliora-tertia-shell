@@ -9,11 +9,12 @@ stage {
 .shell-link {
   color: rgba(2, 88, 165, 0.85);
   font-weight: normal;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .shell-link:hover {
-  color: #e76d00;
+  color: rgba(2, 88, 165, 0.85);
+  text-decoration: underline;
 }
 
 .label-shadow {
@@ -2860,14 +2861,6 @@ StEntry:insensitive StIcon {
 
 .lg-dialog StScrollBar {
   padding: 3px 0;
-}
-
-.lg-dialog .shell-link {
-  color: rgba(2, 88, 165, 0.85);
-}
-
-.lg-dialog .shell-link:hover {
-  color: #e76d00;
 }
 
 .lg-completions-text {
