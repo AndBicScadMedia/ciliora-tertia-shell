@@ -7,19 +7,16 @@
     padding: 3px;
     min-width: 100px;
 
-
     &-content {
         border-image: url("background-assets/popup-inside.svg") 7;
         padding: .7em 0;
         color: $text-primary;
     }
 
-
     &-ornament {
         text-align: right;
         width: 1em;
     }
-
 
     &-arrow {
         @include size(14px);
@@ -27,12 +24,10 @@
         color: $text-primary;
     }
 
-
     &-icon {
         icon-size: 16px;
         color: $text-primary !important;
     }
-
 
     &-item {
         spacing: .8em;
@@ -67,7 +62,6 @@
         }
     }
 
-
     .popup-inactive-menu-item {
         color: $text-primary;
 
@@ -99,7 +93,6 @@
     -arrow-rise: 0;
     -arrow-box-shadow: 0 0 rgba(0, 0, 0, 0);
 }
-
 
 .popup-sub-menu {
     border-image: url("background-assets/submenu-bg.svg") 7;
