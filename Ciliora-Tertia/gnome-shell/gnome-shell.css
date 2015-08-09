@@ -1868,9 +1868,7 @@ StEntry:insensitive StIcon {
 .login-screen #panel .panel-button:focus,
 .login-screen #panel .panel-button:hover,
 .login-screen #panel .panel-button:active,
-.lock-screen #panel .panel-button:focus,
-.lock-screen #panel .panel-button:hover,
-.lock-screen #panel .panel-button:active {
+.lock-screen #panel .panel-button:focus, .lock-screen #panel .panel-button:hover, .lock-screen #panel .panel-button:active {
   color: #fff;
 }
 
@@ -1878,6 +1876,12 @@ StEntry:insensitive StIcon {
   spinner-image: url("misc-assets/process-working.svg");
   spacing: 4px;
   padding: 0 8px;
+}
+
+/* ! Notification indicator */
+.clock-display > * > *:last-child {
+  color: #e86b6b;
+  margin-left: .3em;
 }
 
 /* =====================================================

@@ -116,9 +116,7 @@
 .lock-screen #panel .panel-button {
     color: $text-primary-invert;
 
-    &:focus,
-    &:hover,
-    &:active {
+    &:focus, &:hover, &:active {
         color: $text-primary-invert;
     }
 }
@@ -129,4 +127,10 @@
     padding: 0 8px;
 }
 
-.clock-display {}
+/* ! Notification indicator */
+.clock-display {
+    > * > *:last-child {
+        color: $warning;
+        margin-left: .3em;
+    }
+}
