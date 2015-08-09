@@ -2055,6 +2055,7 @@ StEntry:insensitive StIcon {
 
 .calendar-work-day.calendar-day-with-events {
   border-image: url("misc-assets/calendar-work-day-events.svg") 7;
+  background-image: none !important;
 }
 
 .calendar-work-day.calendar-day-with-events:hover, .calendar-work-day.calendar-day-with-events:focus, .calendar-work-day.calendar-day-with-events:active {
@@ -2090,6 +2091,7 @@ StEntry:insensitive StIcon {
 
 .calendar-nonwork-day.calendar-day-with-events {
   border-image: url("misc-assets/calendar-nonwork-day-events.svg") 7;
+  background-image: none !important;
 }
 
 .calendar-nonwork-day.calendar-day-with-events:hover, .calendar-nonwork-day.calendar-day-with-events:focus, .calendar-nonwork-day.calendar-day-with-events:active {
@@ -2126,6 +2128,7 @@ StEntry:insensitive StIcon {
 /*---  ! Events Day ---*/
 .calendar-day-with-events:hover, .calendar-day-with-events:focus {
   border-image: url("misc-assets/calendar-day-with-events-hover.svg") 7;
+  background-image: none !important;
   color: #fff;
 }
 

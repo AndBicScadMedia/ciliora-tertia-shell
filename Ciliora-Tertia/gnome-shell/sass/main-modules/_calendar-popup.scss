@@ -177,6 +177,7 @@
 
     &.calendar-day-with-events {
         border-image: url("misc-assets/calendar-work-day-events.svg") 7;
+        background-image: none !important;
 
         &:hover, &:focus, &:active {
             border-image: url("misc-assets/calendar-day-active-events.svg") 7;
@@ -213,6 +214,7 @@
 
     &.calendar-day-with-events {
         border-image: url("misc-assets/calendar-nonwork-day-events.svg") 7;
+        background-image: none !important;
 
         &:hover, &:focus, &:active {
             border-image: url("misc-assets/calendar-day-active-events.svg") 7;
@@ -253,6 +255,7 @@
 .calendar-day-with-events {
     &:hover, &:focus {
         border-image: url("misc-assets/calendar-day-with-events-hover.svg") 7;
+        background-image: none !important;
         color: $text-primary-invert;
     }
 }
