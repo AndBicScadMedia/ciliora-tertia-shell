@@ -1930,6 +1930,7 @@ StEntry:insensitive StIcon {
 /*--- ! World Clocks ---*/
 .datemenu-displays-box {
   margin: 0 0.7em;
+  width: 0;
 }
 
 .world-clocks-header {

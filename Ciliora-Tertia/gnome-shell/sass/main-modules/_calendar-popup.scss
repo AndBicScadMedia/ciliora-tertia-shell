@@ -40,7 +40,10 @@
 
 /*--- ! World Clocks ---*/
 
-.datemenu-displays-box { margin: 0 .7em; }
+.datemenu-displays-box {
+    margin: 0 .7em;
+    width: 0; // ! FIX for big num of clocks
+}
 
 .world-clocks-header {
     color: $text-secondary;
