@@ -1436,6 +1436,16 @@ StEntry:insensitive StIcon {
   min-width: 100px;
 }
 
+.popup-menu-boxpointer {
+  -arrow-border-radius: 0;
+  -arrow-background-color: transparent;
+  -arrow-border-width: 0;
+  -arrow-border-color: transparent;
+  -arrow-base: 12px;
+  -arrow-rise: 0;
+  -arrow-box-shadow: 0 0 transparent;
+}
+
 .popup-menu-content {
   border-image: url("background-assets/popup-inside.svg") 7;
   padding: .7em 0;
@@ -1521,17 +1531,6 @@ StEntry:insensitive StIcon {
 
 .popup-menu.panel-menu {
   -boxpointer-gap: 3px;
-}
-
-.popup-menu-boxpointer,
-.candidate-popup-boxpointer {
-  -arrow-border-radius: 0;
-  -arrow-background-color: transparent;
-  -arrow-border-width: 0;
-  -arrow-border-color: transparent;
-  -arrow-base: 12px;
-  -arrow-rise: 0;
-  -arrow-box-shadow: 0 0 transparent;
 }
 
 .popup-sub-menu {
@@ -2624,6 +2623,16 @@ StEntry:insensitive StIcon {
 /* =====================================================
    ! Candidate Popup
    ===================================================== */
+.candidate-popup-boxpointer {
+  -arrow-border-radius: 0;
+  -arrow-background-color: transparent;
+  -arrow-border-width: 0;
+  -arrow-border-color: transparent;
+  -arrow-base: 12px;
+  -arrow-rise: 0;
+  -arrow-box-shadow: 0 0 transparent;
+}
+
 .candidate-popup-content {
   border-image: url("background-assets/popup.svg") 7;
   padding: .3em;
