@@ -97,23 +97,23 @@
 }
 
 .chat-received {
-    border-image: url("background-assets/light-bg.svg") 7;
-    padding: 1em;
+    border-image: url("background-assets/light-bg-bubble-left.svg") 7 11 7 9;
+    padding: 1em 1.6em 1em 1em;
     margin-left: 2em;
     color: $text-primary;
     font-weight: normal;
 
-    &:rtl { padding: 1em; }
+    &:rtl { padding: 1em 1em 1em 1.6em; }
 }
 
 .chat-sent {
-    border-image: url("background-assets/light-bg-marked-blue.svg") 7;
-    padding: 1em 1em 1em 1.4em;
+    border-image: url("background-assets/light-bg-bubble-right.svg") 11 7 9 7;
+    padding: 1em 1em 1em 1.6em;
     margin-left: 0;
     color: $text-primary;
     font-weight: bold;
 
-    &:rtl { padding: 1em 1em 1em 1.4em; }
+    &:rtl { padding: 1em 1.6em 1em 1em; }
 }
 
 .chat-meta-message {

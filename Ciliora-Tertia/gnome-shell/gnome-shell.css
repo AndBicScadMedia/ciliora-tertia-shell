@@ -2430,27 +2430,27 @@ StEntry:insensitive StIcon {
 }
 
 .chat-received {
-  border-image: url("background-assets/light-bg.svg") 7;
-  padding: 1em;
+  border-image: url("background-assets/light-bg-bubble-left.svg") 7 11 7 9;
+  padding: 1em 1.6em 1em 1em;
   margin-left: 2em;
   color: rgba(0, 0, 0, 0.65);
   font-weight: normal;
 }
 
 .chat-received:rtl {
-  padding: 1em;
+  padding: 1em 1em 1em 1.6em;
 }
 
 .chat-sent {
-  border-image: url("background-assets/light-bg-marked-blue.svg") 7;
-  padding: 1em 1em 1em 1.4em;
+  border-image: url("background-assets/light-bg-bubble-right.svg") 11 7 9 7;
+  padding: 1em 1em 1em 1.6em;
   margin-left: 0;
   color: rgba(0, 0, 0, 0.65);
   font-weight: bold;
 }
 
 .chat-sent:rtl {
-  padding: 1em 1em 1em 1.4em;
+  padding: 1em 1.6em 1em 1em;
 }
 
 .chat-meta-message {
