@@ -187,31 +187,31 @@ StEntry:insensitive StIcon {
 /* =====================================================
    ! Checkboxes
    ===================================================== */
-.checkbox StBoxLayout {
+.check-box StBoxLayout {
   spacing: .4em;
   min-height: 17px;
   padding-bottom: 2px;
 }
 
-.checkbox StLabel {
+.check-box StLabel {
   padding-top: .1em;
 }
 
-.checkbox StBin {
+.check-box StBin {
   width: 17px;
   height: 17px;
   background-image: url("widget-assets/checkbox.svg");
 }
 
-.checkbox:focus StBin {
+.check-box:focus StBin {
   background-image: url("widget-assets/checkbox-focused.svg");
 }
 
-.checkbox:checked StBin {
+.check-box:checked StBin {
   background-image: url("widget-assets/checkbox-checked.svg");
 }
 
-.checkbox:focus:checked StBin {
+.check-box:focus:checked StBin {
   background-image: url("widget-assets/checkbox-focused-checked.svg");
 }
 
