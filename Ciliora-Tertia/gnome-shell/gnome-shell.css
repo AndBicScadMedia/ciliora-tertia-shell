@@ -1058,7 +1058,7 @@ StEntry:insensitive StIcon {
 
 .end-session-dialog .check-box StLabel {
   font-weight: bold;
-  color: rgba(237, 93, 0, 0.8);
+  color: rgba(244, 96, 0, 0.9);
   padding-left: .4em;
 }
 

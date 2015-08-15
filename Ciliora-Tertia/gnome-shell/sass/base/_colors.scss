@@ -10,8 +10,8 @@ $text-disabled-invert:  alpha(#fff, .3);
 $accent: #83a7c7;
 $accent-text: alpha(saturate(darken($accent, 32%), 60%), .85);
 
-$info: #FF9754;
-$info-text: alpha(saturate(darken($info, 20%), 100%), .8);
+$info: #ff924c;
+$info-text: alpha(saturate(darken($info, 17%), 100%), .9);
 
 $warning: #e86b6b;
 $warning-text: alpha(saturate(darken($warning, 20%), 100%), .7);
