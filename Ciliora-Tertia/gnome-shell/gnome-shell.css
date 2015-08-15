@@ -1051,13 +1051,15 @@ StEntry:insensitive StIcon {
   text-align: right;
 }
 
-.end-session-dialog .checkbox {
+.end-session-dialog .check-box {
   margin-top: .4em;
   margin-bottom: .4em;
 }
 
-.end-session-dialog .checkbox StLabel {
+.end-session-dialog .check-box StLabel {
   font-weight: bold;
+  color: rgba(237, 93, 0, 0.8);
+  padding-left: .4em;
 }
 
 .end-session-dialog-warning {
@@ -1099,6 +1101,7 @@ StEntry:insensitive StIcon {
 .end-session-dialog-list-header {
   font-weight: bold;
   padding-bottom: 16px;
+  color: rgba(237, 0, 0, 0.7);
 }
 
 .end-session-dialog-list-header:rtl {
