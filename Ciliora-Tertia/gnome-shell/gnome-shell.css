@@ -374,25 +374,15 @@ StEntry:insensitive StIcon {
   border: 0 solid transparent;
   border-right-width: 1px;
   border-left-width: 4px;
-  min-width: 15em;
   height: 16px;
 }
 
 .popup-menu-item.selected .slider {
-  -slider-height: 4px;
-  -slider-background-color: transparent;
-  -slider-border-color: transparent;
-  -slider-active-background-color: rgba(15, 93, 162, 0.45);
-  -slider-active-border-color: transparent;
   -slider-border-width: 0;
   -slider-handle-radius: 5px;
   color: #fff;
   border-image: url("widget-assets/slider-hover.svg") 9 6 8 8;
-  border: 0 solid transparent;
-  border-right-width: 1px;
   border-left-width: 5px;
-  min-width: 15em;
-  height: 16px;
 }
 
 /* =====================================================
