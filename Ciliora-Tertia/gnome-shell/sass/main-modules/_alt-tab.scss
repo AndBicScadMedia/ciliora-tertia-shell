@@ -10,7 +10,7 @@
 .switcher-list {
     border-image: url("background-assets/popup.svg") 7;
     color: $text-primary;
-    padding: 11px;
+    padding: 12px;
     font-size: 12px;
     font-weight: bold;
 
@@ -18,12 +18,19 @@
         spacing: 5px;
     }
 
+    > StLabel {
+        padding: 0 10px 2px 10px;
+        font-size: 12pt;
+    }
+
     .item-box {
         border-radius: 0 !important;
         border-image: url("background-assets/light-bg.svg") 7;
         padding: 10px;
 
-        StLabel { padding-top: 6px; }
+        StLabel {
+            padding-top: 6px;
+        }
     }
 
     .item-box:outlined {
@@ -57,6 +64,11 @@
 
         &:highlighted { color: transparent !important; }
     }
+}
+
+.alt-tab-app StIcon {
+    @include size(64px);
+    padding-bottom: 10px;
 }
 
 .input-source-switcher-symbol {

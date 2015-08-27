@@ -1619,13 +1619,18 @@ StEntry:insensitive StIcon {
 .switcher-list {
   border-image: url("background-assets/popup.svg") 7;
   color: rgba(0, 0, 0, 0.65);
-  padding: 11px;
+  padding: 12px;
   font-size: 12px;
   font-weight: bold;
 }
 
 .switcher-list-item-container {
   spacing: 5px;
+}
+
+.switcher-list > StLabel {
+  padding: 0 10px 2px 10px;
+  font-size: 12pt;
 }
 
 .switcher-list .item-box {
@@ -1670,6 +1675,12 @@ StEntry:insensitive StIcon {
 
 .switcher-list .switcher-arrow:highlighted {
   color: transparent !important;
+}
+
+.alt-tab-app StIcon {
+  width: 64px;
+  height: 64px;
+  padding-bottom: 10px;
 }
 
 .input-source-switcher-symbol {
